@@ -1,0 +1,27 @@
+Mutation Score: 0.5 | Killed Mutants: 5 | Mutation Count: 10
+Verified Mutants:
+powRek : PW_5 valid but restricted numbers
+powRek : PW_6 valid but restricted numbers
+powRek : PW_1 valid but restricted numbers
+powRek : PW_3 valid but restricted numbers
+powRek : PW_2 valid but restricted numbers
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PW_9 : 197394
+PW_8 : 194966
+PW_10 : 197855
+PW_5 : 668
+PW_4 : 106958
+PW_7 : 195036
+PW_6 : 605
+PW_1 : 604
+PW_3 : 806
+PW_2 : 605
+
+Count for Mutation Operators: 
+PW : 5
+
+Pre: 13761570
+Post: 154033568

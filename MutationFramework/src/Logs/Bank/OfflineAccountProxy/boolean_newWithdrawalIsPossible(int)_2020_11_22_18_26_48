@@ -1,0 +1,53 @@
+Mutation Score: 0.3076923076923077 | Killed Mutants: 8 | Mutation Count: 26
+Verified Mutants:
+newWithdrawalIsPossible : ROR_2
+newWithdrawalIsPossible : ROR_3
+newWithdrawalIsPossible : ROR_4
+newWithdrawalIsPossible : SDL_7
+newWithdrawalIsPossible : ROR_5
+newWithdrawalIsPossible : SDL_6
+newWithdrawalIsPossible : ROR_6
+newWithdrawalIsPossible : AOIS_14
+newWithdrawalIsPossible : ROR_7
+newWithdrawalIsPossible : AOIS_13
+newWithdrawalIsPossible : AOIS_12
+newWithdrawalIsPossible : AOIS_11
+newWithdrawalIsPossible : LOI_5
+newWithdrawalIsPossible : LOI_6
+newWithdrawalIsPossible : ROR_1
+newWithdrawalIsPossible : AOIU_5
+newWithdrawalIsPossible : AOIU_6
+newWithdrawalIsPossible : COI_1
+
+Exceptional Mutants:
+
+Timing per Mutant:
+ROR_2 : 102
+AOIS_18 : 102
+ROR_3 : 102
+AOIS_17 : 101
+ROR_4 : 101
+AOIS_16 : 101
+ROR_5 : 102
+AOIS_15 : 101
+ROR_6 : 101
+AOIS_14 : 102
+ROR_7 : 101
+AOIS_13 : 101
+AOIS_12 : 101
+AOIS_11 : 103
+LOI_5 : 102
+LOI_6 : 101
+VDL_2 : 101
+VDL_1 : 102
+ROR_1 : 101
+COI_1 : 102
+SDL_7 : 103
+SDL_6 : 101
+ODL_3 : 102
+ODL_2 : 102
+AOIU_5 : 101
+AOIU_6 : 102
+
+Pre: 428200
+Post: 61314600

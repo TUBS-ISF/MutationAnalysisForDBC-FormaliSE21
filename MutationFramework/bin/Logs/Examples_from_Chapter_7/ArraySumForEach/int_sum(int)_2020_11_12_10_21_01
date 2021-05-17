@@ -1,0 +1,6 @@
+Mutation Score: 0.7894736842105263 | Killed Mutants: 15 | Mutation Count: 19
+Verified Mutants:
+sum : AOIS_5
+sum : AOIS_6
+sum : AOIS_3
+sum : AOIS_4

@@ -1,0 +1,25 @@
+Mutation Score: 0.5 | Killed Mutants: 4 | Mutation Count: 8
+Verified Mutants:
+issueCard : AOIS_16
+issueCard : AOIS_15
+issueCard : AOIS_14
+issueCard : AOIS_13
+
+Exceptional Mutants:
+
+Timing per Mutant:
+AOIS_16 : 426
+AOIS_15 : 404
+AOIS_14 : 404
+AOIS_13 : 404
+AOIU_5 : 303
+AOIU_6 : 304
+LOI_6 : 303
+LOI_7 : 302
+
+Count for Mutation Operators: 
+AOIU : 2
+LOI : 2
+
+Pre: 617800
+Post: 25893700

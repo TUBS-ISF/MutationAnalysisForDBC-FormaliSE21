@@ -1,0 +1,15 @@
+Mutation Score: 1.0 | Killed Mutants: 4 | Mutation Count: 4
+Verified Mutants:
+
+Exceptional Mutants:
+PS_1 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,a,arr(i)) cannot be converted into a formula.
+PS_3 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term Z(0(#)) cannot be converted into a formula.
+PS_2 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,a,arr(i)) cannot be converted into a formula.
+PS_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term Z(0(#)) cannot be converted into a formula.
+
+Timing per Mutant:
+
+Count for Mutation Operators: 
+
+Pre: 13861776
+Post: 69753828

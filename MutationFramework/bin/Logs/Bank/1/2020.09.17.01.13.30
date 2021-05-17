@@ -1,0 +1,28 @@
+Mutation Score: 2.0 | Killed Mutants: 68 | Mutation Count: 26
+Verified Mutants:
+newWithdrawalIsPossible : ROR_2
+newWithdrawalIsPossible : AOIS_18
+newWithdrawalIsPossible : ROR_3
+newWithdrawalIsPossible : AOIS_17
+newWithdrawalIsPossible : ROR_4
+newWithdrawalIsPossible : AOIS_16
+newWithdrawalIsPossible : ROR_5
+newWithdrawalIsPossible : AOIS_15
+newWithdrawalIsPossible : ROR_6
+newWithdrawalIsPossible : AOIS_14
+newWithdrawalIsPossible : ROR_7
+newWithdrawalIsPossible : AOIS_13
+newWithdrawalIsPossible : AOIS_12
+newWithdrawalIsPossible : AOIS_11
+newWithdrawalIsPossible : LOI_5
+newWithdrawalIsPossible : LOI_6
+newWithdrawalIsPossible : VDL_2
+newWithdrawalIsPossible : VDL_1
+newWithdrawalIsPossible : ROR_1
+newWithdrawalIsPossible : COI_1
+newWithdrawalIsPossible : SDL_7
+newWithdrawalIsPossible : SDL_6
+newWithdrawalIsPossible : ODL_3
+newWithdrawalIsPossible : ODL_2
+newWithdrawalIsPossible : AOIU_5
+newWithdrawalIsPossible : AOIU_6

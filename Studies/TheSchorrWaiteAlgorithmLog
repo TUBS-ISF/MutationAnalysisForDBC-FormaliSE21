@@ -1,0 +1,11 @@
+JML normal_behavior operation contract 0,HeapObject::getChildCount,true;
+JML normal_behavior operation contract 0,HeapObject::getChild,true;
+JML exceptional_behavior operation contract 0,HeapObject::getChild,true;
+JML normal_behavior operation contract 0,HeapObject::getIndex,true;
+JML normal_behavior operation contract 0,HeapObject::hasNext,true;
+JML normal_behavior operation contract 0,HeapObject::isMarked,true;
+JML normal_behavior operation contract 0,HeapObject::incIndex,true;
+JML normal_behavior operation contract 0,HeapObject::setMark,true;
+JML normal_behavior operation contract 0,HeapObject::setChild,false;
+JML exceptional_behavior operation contract 0,HeapObject::setChild,true;
+JML normal_behavior operation contract 0,SchorrWaite::mark,false;

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+<hibernate-mapping>
+	<!-- com.spaceprogram.accounting.basic.Transaction root -->
+	<class name="com.spaceprogram.accounting.basic.Invoice" table="ACCTInvoice">
+		<id name="id" unsaved-value="null" >
+			<generator class="native"/> <!-- assigned from journal entry -->
+		</id>
+        <property name="created"/>
+        <property name="updated"/>
+
+		<!--property name="refNumber" column="refNumber" type="int"/-->
+		<property name="invoiceNumber"/>
+		<property name="customerKey"/>
+        <!--<many-to-one name="customer"
+            class="com.thinkvirtual.contacts.Customer"
+            cascade="save-update"
+            column="customerKey"></many-to-one>-->
+		<property name="companyKey"/>
+		<property name="billTo"/>
+        <property name="invoiceDate"/>
+		<property name="dueDate"/>
+        <property name="customerMessage"/>
+		<property name="toBePrinted"/>
+        <property name="toBeSent"/>
+        <property name="sendToEmailKey"/>
+        <property name="templateKey"/>
+
+        <bag name="taxes" table="ACCTTax" cascade="all" >
+            <key column="invoiceKey"/>
+            <one-to-many class="com.spaceprogram.accounting.basic.Tax"/>
+        </bag>
+        <many-to-one
+            name="journalEntry"
+            class="com.spaceprogram.accounting.basic.JournalEntry"
+            cascade="all"
+            column="journalEntryKey"
+
+        />
+
+        <set name="charges" table="ACCTCharge" cascade="none" >
+            <key column="invoiceKey"/>
+            <one-to-many class="com.spaceprogram.accounting.basic.Charge"/>
+        </set>
+         <property name="amount"/>
+         <property name="amountPaid"/>
+         <property name="paid"/>
+
+
+	</class>
+</hibernate-mapping>

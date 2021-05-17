@@ -1,0 +1,12 @@
+Mutation Score: 0.6153846153846154 | Killed Mutants: 16 | Mutation Count: 26
+Verified Mutants:
+addCredits : ROR_4
+addCredits : ODL_2
+addCredits : ROR_7
+addCredits : AOIU_2
+addCredits : VDL_1
+addCredits : AOIS_1
+addCredits : AOIS_2
+addCredits : SDL_3
+addCredits : ROR_1
+addCredits : SDL_2

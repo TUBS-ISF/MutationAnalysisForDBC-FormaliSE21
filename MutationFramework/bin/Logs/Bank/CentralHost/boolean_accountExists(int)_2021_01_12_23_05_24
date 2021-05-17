@@ -1,0 +1,47 @@
+Mutation Score: 1.0 | Killed Mutants: 4 | Mutation Count: 4
+Verified Mutants:
+
+Exceptional Mutants:
+PS_3 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was lt(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 736631002
+2.) sort: int, sort hash: 736631002
+
+The subterms were:
+1.) bank.PermanentAccount::select(heap,bank.PermanentAccount[]::select(heap,self,bank.CentralHost::$accounts),arr(accountNumber))(sort: bank.PermanentAccount, sort hash: 893743573)
+2.) null(sort: Null, sort hash: 1977187864)
+
+PS_5 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was lt(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 736631002
+2.) sort: int, sort hash: 736631002
+
+The subterms were:
+1.) bank.PermanentAccount::select(heap,bank.PermanentAccount[]::select(heap,self,bank.CentralHost::$accounts),arr(accountNumber))(sort: bank.PermanentAccount, sort hash: 396316011)
+2.) null(sort: Null, sort hash: 1977187864)
+
+PS_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was lt(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 736631002
+2.) sort: int, sort hash: 736631002
+
+The subterms were:
+1.) bank.PermanentAccount::select(heap,bank.PermanentAccount[]::select(heap,self,bank.CentralHost::$accounts),arr(accountNumber))(sort: bank.PermanentAccount, sort hash: 773129377)
+2.) null(sort: Null, sort hash: 1977187864)
+
+PS_6 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was lt(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 736631002
+2.) sort: int, sort hash: 736631002
+
+The subterms were:
+1.) bank.PermanentAccount::select(heap,bank.PermanentAccount[]::select(heap,self,bank.CentralHost::$accounts),arr(accountNumber))(sort: bank.PermanentAccount, sort hash: 252138100)
+2.) null(sort: Null, sort hash: 1977187864)
+
+
+Timing per Mutant:
+
+Count for Mutation Operators: 
+
+Pre: 13668434
+Post: 76403970

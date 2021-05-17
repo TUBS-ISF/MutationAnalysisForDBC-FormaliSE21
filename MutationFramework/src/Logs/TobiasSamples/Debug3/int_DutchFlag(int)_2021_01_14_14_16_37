@@ -1,0 +1,30 @@
+Mutation Score: 0.6153846153846154 | Killed Mutants: 8 | Mutation Count: 13
+Verified Mutants:
+DutchFlag : PW_9 valid
+DutchFlag : PW_10 valid but equivalent
+DutchFlag : PW_11 range
+DutchFlag : PW_12 range
+DutchFlag : PW_15 valid
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PW_9 : 4326
+PW_8 : 4330
+PW_10 : 4230
+PW_11 : 4026
+PW_12 : 3825
+PW_13 : 3722
+PW_14 : 6143
+PW_15 : 3827
+PW_5 : 4130
+PW_4 : 4023
+PW_7 : 4126
+PW_6 : 4244
+PW_3 : 3949
+
+Count for Mutation Operators: 
+PW : 8
+
+Pre: 14236510
+Post: 213800481

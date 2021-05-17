@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.spaceprogram.accounting.basic.Product" table="ACCTProduct">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="companyKey"/>
+         <property name="name"/>
+         <property name="description"/>
+
+        <property name="code" />
+
+         <property name="rate" />
+         <property name="accountKey" />
+         <property name="taxable" />
+
+
+	</class>
+</hibernate-mapping>

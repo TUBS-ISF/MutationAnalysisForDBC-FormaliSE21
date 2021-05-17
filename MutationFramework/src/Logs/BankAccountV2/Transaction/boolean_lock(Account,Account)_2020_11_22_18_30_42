@@ -1,0 +1,23 @@
+Mutation Score: 0.4444444444444444 | Killed Mutants: 4 | Mutation Count: 9
+Verified Mutants:
+lock : SDL_5
+lock : SDL_12
+lock : SDL_4
+lock : SDL_8
+lock : SDL_10
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_11 : 201
+SDL_5 : 102
+SDL_12 : 102
+SDL_4 : 102
+SDL_7 : 102
+SDL_6 : 101
+SDL_9 : 202
+SDL_8 : 102
+SDL_10 : 102
+
+Pre: 259400
+Post: 6978200

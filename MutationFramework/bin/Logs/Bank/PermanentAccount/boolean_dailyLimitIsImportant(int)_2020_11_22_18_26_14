@@ -1,0 +1,71 @@
+Mutation Score: 0.0 | Killed Mutants: 0 | Mutation Count: 31
+Verified Mutants:
+dailyLimitIsImportant : AOIS_39
+dailyLimitIsImportant : SDL_13
+dailyLimitIsImportant : AOIS_38
+dailyLimitIsImportant : SDL_14
+dailyLimitIsImportant : AOIS_37
+dailyLimitIsImportant : SDL_19
+dailyLimitIsImportant : SDL_15
+dailyLimitIsImportant : SDL_16
+dailyLimitIsImportant : SDL_17
+dailyLimitIsImportant : SDL_18
+dailyLimitIsImportant : AOIU_10
+dailyLimitIsImportant : AOIU_11
+dailyLimitIsImportant : AOIU_12
+dailyLimitIsImportant : AOIU_13
+dailyLimitIsImportant : AOIU_14
+dailyLimitIsImportant : AOIS_48
+dailyLimitIsImportant : AOIS_47
+dailyLimitIsImportant : AOIS_46
+dailyLimitIsImportant : SDL_20
+dailyLimitIsImportant : AOIS_45
+dailyLimitIsImportant : SDL_21
+dailyLimitIsImportant : AOIS_44
+dailyLimitIsImportant : AOIS_43
+dailyLimitIsImportant : AOIS_42
+dailyLimitIsImportant : AOIS_41
+dailyLimitIsImportant : AOIS_40
+dailyLimitIsImportant : LOI_14
+dailyLimitIsImportant : LOI_15
+dailyLimitIsImportant : LOI_16
+dailyLimitIsImportant : LOI_17
+dailyLimitIsImportant : LOI_13
+
+Exceptional Mutants:
+
+Timing per Mutant:
+AOIS_39 : 505
+SDL_13 : 102
+AOIS_38 : 504
+SDL_14 : 103
+AOIS_37 : 504
+SDL_19 : 202
+SDL_15 : 403
+SDL_16 : 402
+SDL_17 : 102
+SDL_18 : 504
+AOIU_10 : 505
+AOIU_11 : 505
+AOIU_12 : 514
+AOIU_13 : 504
+AOIU_14 : 505
+AOIS_48 : 505
+AOIS_47 : 508
+AOIS_46 : 504
+SDL_20 : 504
+AOIS_45 : 503
+SDL_21 : 528
+AOIS_44 : 506
+AOIS_43 : 605
+AOIS_42 : 504
+AOIS_41 : 505
+AOIS_40 : 505
+LOI_14 : 302
+LOI_15 : 404
+LOI_16 : 302
+LOI_17 : 503
+LOI_13 : 302
+
+Pre: 1250800
+Post: 94828600

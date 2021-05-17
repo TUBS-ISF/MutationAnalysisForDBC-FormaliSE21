@@ -1,0 +1,57 @@
+Mutation Score: 1.0 | Killed Mutants: 13 | Mutation Count: 13
+Verified Mutants:
+
+Exceptional Mutants:
+PW_11 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was geq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) paycard.PayCard::isValid(heap,self)(sort: boolean, sort hash: 30270324)
+2.) false(sort: Formula, sort hash: 1828787392)
+
+PW_5 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was leq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) paycard.PayCard::isValid(heap,self)(sort: boolean, sort hash: 30270324)
+2.) true(sort: Formula, sort hash: 1828787392)
+
+PW_12 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was leq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) paycard.PayCard::isValid(heap,self)(sort: boolean, sort hash: 30270324)
+2.) false(sort: Formula, sort hash: 1828787392)
+
+PW_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was geq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) paycard.PayCard::isValid(heap,self)(sort: boolean, sort hash: 30270324)
+2.) true(sort: Formula, sort hash: 1828787392)
+
+
+Timing per Mutant:
+PW_9 : 202
+PW_8 : 203
+PW_10 : 204
+PW_13 : 202
+PW_7 : 202
+PW_14 : 203
+PW_6 : 202
+PW_3 : 303
+PW_2 : 303
+
+Count for Mutation Operators: 
+PW : 9
+
+Pre: 13798140
+Post: 214212520

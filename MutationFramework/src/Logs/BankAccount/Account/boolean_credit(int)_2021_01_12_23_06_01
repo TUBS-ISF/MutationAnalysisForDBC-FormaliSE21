@@ -1,0 +1,16 @@
+Mutation Score: 1.0 | Killed Mutants: 4 | Mutation Count: 4
+Verified Mutants:
+
+Exceptional Mutants:
+PS_3 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 50:27 '<='
+PS_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 50:29 '='
+
+Timing per Mutant:
+PS_1 : 102
+PS_2 : 102
+
+Count for Mutation Operators: 
+PS : 2
+
+Pre: 13843490
+Post: 69346667

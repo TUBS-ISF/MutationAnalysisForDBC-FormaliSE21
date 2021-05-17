@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+<hibernate-mapping>
+	<!-- com.spaceprogram.accounting.basic.JournalEntry root -->
+	<class name="com.spaceprogram.accounting.basic.JournalEntry" table="ACCTJournalEntry">
+		<id name="id" unsaved-value="null" >
+			<generator class="native"/>
+		</id>
+		<set name="transactions" table="ACCTTransaction" lazy="false"
+            cascade="all">
+			<key column="journalEntryKey"/>
+			<!--index column="id"/-->
+			<one-to-many class="com.spaceprogram.accounting.basic.Transaction"/>
+		</set>
+		<property name="entryNumber" />
+		<property name="memo" />
+		<property name="entryDate" />
+		<property name="companyKey"  />
+	</class>
+</hibernate-mapping>

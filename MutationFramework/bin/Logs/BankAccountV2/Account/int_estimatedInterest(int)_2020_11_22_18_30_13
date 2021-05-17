@@ -1,0 +1,38 @@
+Mutation Score: 0.8846153846153846 | Killed Mutants: 23 | Mutation Count: 26
+Verified Mutants:
+estimatedInterest : ODL_26
+estimatedInterest : AORB_18
+estimatedInterest : ODL_28
+
+Exceptional Mutants:
+
+Timing per Mutant:
+AORB_17 : 304
+SDL_34 : 202
+VDL_17 : 202
+AOIS_99 : 303
+AOIS_98 : 201
+AOIS_97 : 302
+VDL_18 : 202
+AOIS_96 : 202
+AOIS_95 : 203
+AOIS_100 : 302
+AOIS_94 : 203
+AOIS_93 : 202
+AORB_18 : 513
+AORB_19 : 203
+LOI_27 : 202
+LOI_28 : 203
+AORB_20 : 203
+ODL_27 : 203
+ODL_26 : 102
+ODL_29 : 303
+ODL_28 : 100
+AORB_23 : 403
+AORB_24 : 201
+AORB_21 : 304
+AORB_22 : 303
+AOIU_22 : 203
+
+Pre: 562200
+Post: 46159600

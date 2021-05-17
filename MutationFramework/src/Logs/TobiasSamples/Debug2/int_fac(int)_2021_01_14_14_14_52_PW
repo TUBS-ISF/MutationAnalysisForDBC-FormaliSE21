@@ -1,0 +1,17 @@
+Mutation Score: 0.75 | Killed Mutants: 3 | Mutation Count: 4
+Verified Mutants:
+fac : PW_3 - valid but does this rewally count?
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PW_5 : 102
+PW_4 : 190069
+PW_6 : 103
+PW_3 : 1211
+
+Count for Mutation Operators: 
+PW : 3
+
+Pre: 13799848
+Post: 75103247

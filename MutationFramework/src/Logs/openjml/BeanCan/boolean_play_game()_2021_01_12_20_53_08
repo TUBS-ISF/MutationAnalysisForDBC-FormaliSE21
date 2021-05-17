@@ -1,0 +1,19 @@
+Mutation Score: 0.0 | Killed Mutants: 0 | Mutation Count: 4
+Verified Mutants:
+play_game : PW_15
+play_game : PW_16
+play_game : PW_17
+play_game : PW_18
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PW_15 : 102
+PW_16 : 102
+PW_17 : 102
+PW_18 : 102
+
+Count for Mutation Operators: 
+
+Pre: 13818134
+Post: 70539138

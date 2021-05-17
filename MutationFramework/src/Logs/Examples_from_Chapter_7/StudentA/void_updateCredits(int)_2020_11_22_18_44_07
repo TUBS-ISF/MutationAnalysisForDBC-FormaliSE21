@@ -1,0 +1,23 @@
+Mutation Score: 0.8333333333333334 | Killed Mutants: 10 | Mutation Count: 12
+Verified Mutants:
+updateCredits : AOIS_9
+updateCredits : AOIS_10
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_5 : 102
+ODL_3 : 102
+AOIS_9 : 203
+ASRS_3 : 101
+ASRS_2 : 102
+AOIS_7 : 102
+ASRS_1 : 203
+AOIS_8 : 102
+AOIU_3 : 202
+AOIS_10 : 203
+ASRS_4 : 215
+LOI_3 : 102
+
+Pre: 418400
+Post: 9984100

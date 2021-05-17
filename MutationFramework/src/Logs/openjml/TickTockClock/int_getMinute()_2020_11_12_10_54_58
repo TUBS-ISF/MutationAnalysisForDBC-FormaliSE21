@@ -1,0 +1,3 @@
+Mutation Score: 0.8 | Killed Mutants: 4 | Mutation Count: 5
+Verified Mutants:
+getMinute : SDL_5

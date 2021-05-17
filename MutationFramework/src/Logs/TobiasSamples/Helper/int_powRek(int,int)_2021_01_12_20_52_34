@@ -1,0 +1,24 @@
+Mutation Score: 0.8 | Killed Mutants: 8 | Mutation Count: 10
+Verified Mutants:
+powRek : PW_1
+powRek : PW_2
+
+Exceptional Mutants:
+PW_9 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 24:19 'a'
+PW_8 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 24:19 'a'
+PW_5 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Expression n6 cannot be resolved.
+PW_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Expression a6 cannot be resolved.
+PW_7 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 24:26 'n'
+PW_6 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Expression n6 cannot be resolved.
+PW_3 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Expression a6 cannot be resolved.
+
+Timing per Mutant:
+PW_10 : 191998
+PW_1 : 606
+PW_2 : 605
+
+Count for Mutation Operators: 
+PW : 1
+
+Pre: 13843977
+Post: 153528396

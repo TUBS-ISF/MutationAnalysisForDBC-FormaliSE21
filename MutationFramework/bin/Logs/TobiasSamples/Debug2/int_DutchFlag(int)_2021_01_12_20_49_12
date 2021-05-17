@@ -1,0 +1,25 @@
+Mutation Score: 1.0 | Killed Mutants: 13 | Mutation Count: 13
+Verified Mutants:
+
+Exceptional Mutants:
+PW_9 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_8 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_10 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_11 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_12 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_7 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+
+Timing per Mutant:
+PW_19 : 101
+PW_13 : 102
+PW_14 : 101
+PW_15 : 102
+PW_16 : 102
+PW_17 : 102
+PW_18 : 103
+
+Count for Mutation Operators: 
+PW : 7
+
+Pre: 13716465
+Post: 197849505

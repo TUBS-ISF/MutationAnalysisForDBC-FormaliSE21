@@ -1,0 +1,429 @@
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+
+
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies\Allergies.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies\Allergies.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies\Allergies.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies\Allergies.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies\Allergies.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies\Allergies.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies\Allergies.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\allergies\Allergies.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\appointments':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\appointments\Appointment.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\appointments; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\appointments\Appointment.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\appointments\Appointment.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\appointments\Appointment.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\cardServices':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\cardServices\CardServices.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\cardServices; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\cardServices\CardServices.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\cardServices\CardServices.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\cardServices\CardServices.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\commons':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.Util" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\commons\CardUtil.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\commons; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.Util" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\commons\CardUtil.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.Util" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\commons\CardUtil.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.framework.Util" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\commons\CardUtil.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\diagnostics':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\diagnostics\Diagnostic.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\diagnostics; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\diagnostics\Diagnostic.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\diagnostics\Diagnostic.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\diagnostics\Diagnostic.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacardContract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\HealthCard\src\javacard\framework
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\medicines':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\medicines\Medicine.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\medicines; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\medicines\Medicine.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\medicines\Medicine.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\medicines\Medicine.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\personal':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\personal\Personal.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\personal; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\personal\Personal.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\personal\Personal.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "java.rmi.RemoteException" @4/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\personal\Personal.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\treatments':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\treatments\Treatment.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\treatments; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\treatments\Treatment.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\treatments\Treatment.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\treatments\Treatment.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\HealthCard\src\vaccines':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\vaccines\Vaccine.java(14) (file: E:\java-2020-03\Workspace\Studies\HealthCard\src\vaccines; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\vaccines\Vaccine.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\vaccines\Vaccine.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "commons.Common" @3/8 in FILE:E:\java-2020-03\Workspace\Studies\HealthCard\src\vaccines\Vaccine.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more

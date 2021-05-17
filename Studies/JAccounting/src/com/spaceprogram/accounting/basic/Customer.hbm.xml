@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.spaceprogram.accounting.basic.Customer" table="ACCTCustomer">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="companyKey"/>
+        <many-to-one name="company" class="com.spaceprogram.contacts.impls.CompanyImpl"  column="companyContactKey"  cascade="save-update" />  
+
+        <!--property name="created" column="customer_created" type="java.util.Date"/>
+        <property name="updated" column="customer_updated" type="java.util.Date"/>
+        <property name="name" column="customer_name"/>
+        <property name="description" column="customer_description"/>
+        <property name="website" column="customer_web_url"/>
+
+        <property name="type" column="customer_type"/-->
+
+
+
+
+
+
+    </class>
+
+
+</hibernate-mapping>
+

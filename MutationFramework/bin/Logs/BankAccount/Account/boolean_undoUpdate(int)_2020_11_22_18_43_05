@@ -1,0 +1,73 @@
+Mutation Score: 0.8148148148148148 | Killed Mutants: 44 | Mutation Count: 54
+Verified Mutants:
+undoUpdate : ROR_13
+undoUpdate : AOIS_28
+undoUpdate : AOIS_39
+undoUpdate : AOIS_27
+undoUpdate : ROR_10
+undoUpdate : SDL_8
+undoUpdate : ROR_12
+undoUpdate : ODL_8
+undoUpdate : AOIS_40
+undoUpdate : VDL_8
+
+Exceptional Mutants:
+
+Timing per Mutant:
+ROR_14 : 102
+ROR_13 : 102
+ROR_10 : 868
+COI_2 : 102
+ROR_12 : 101
+ROR_8 : 101
+ROR_11 : 101
+ROR_9 : 102
+LOI_6 : 103
+LOI_7 : 101
+LOI_8 : 101
+SDL_7 : 102
+SDL_6 : 101
+SDL_9 : 203
+SDL_8 : 101
+AOIS_40 : 202
+LOI_9 : 101
+AOIS_39 : 102
+AOIS_38 : 203
+AOIS_37 : 102
+AOIS_36 : 346
+AOIS_35 : 203
+AOIS_34 : 201
+SDL_10 : 100
+AOIS_33 : 203
+AOIS_32 : 103
+AOIS_31 : 102
+AOIS_30 : 101
+VDL_8 : 102
+VDL_7 : 101
+VDL_6 : 103
+VDL_5 : 102
+AOIS_29 : 102
+AOIS_28 : 202
+AOIS_27 : 203
+AOIS_26 : 102
+AOIS_25 : 102
+AOIS_24 : 201
+AOIS_23 : 202
+AOIS_22 : 202
+ODL_9 : 101
+AOIS_21 : 203
+ODL_8 : 102
+AOIU_7 : 102
+LOI_10 : 103
+AOIU_8 : 203
+AOIU_5 : 101
+ODL_7 : 103
+AOIU_6 : 103
+ODL_6 : 101
+AORB_7 : 270
+AORB_8 : 102
+AORB_5 : 102
+AORB_6 : 202
+
+Pre: 316100
+Post: 64045800

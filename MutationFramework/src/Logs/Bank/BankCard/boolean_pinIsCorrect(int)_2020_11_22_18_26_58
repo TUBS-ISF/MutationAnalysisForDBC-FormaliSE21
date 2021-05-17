@@ -1,0 +1,40 @@
+Mutation Score: 0.9310344827586207 | Killed Mutants: 27 | Mutation Count: 29
+Verified Mutants:
+pinIsCorrect : AOIS_16
+pinIsCorrect : AOIS_15
+
+Exceptional Mutants:
+
+Timing per Mutant:
+ROR_2 : 101
+ROR_3 : 101
+ROR_4 : 102
+AOIS_16 : 102
+ROR_5 : 101
+AOIS_15 : 101
+ROR_6 : 102
+AOIS_14 : 102
+ROR_7 : 102
+AOIS_13 : 102
+AOIS_12 : 101
+AOIS_11 : 101
+AOIS_10 : 100
+VDL_2 : 102
+VDL_1 : 102
+LOI_3 : 102
+LOI_4 : 103
+ROR_1 : 102
+COI_1 : 102
+SDL_5 : 102
+SDL_4 : 103
+SDL_7 : 101
+SDL_6 : 102
+AOIU_3 : 227
+AOIU_4 : 101
+ODL_1 : 102
+ODL_2 : 102
+AOIS_9 : 102
+SDL_3 : 102
+
+Pre: 360800
+Post: 30861800

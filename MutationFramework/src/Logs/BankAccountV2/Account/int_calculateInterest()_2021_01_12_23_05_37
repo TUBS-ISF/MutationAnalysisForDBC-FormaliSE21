@@ -1,0 +1,15 @@
+Mutation Score: 1.0 | Killed Mutants: 4 | Mutation Count: 4
+Verified Mutants:
+
+Exceptional Mutants:
+PS_1 : de.uka.ilkd.key.logic.TermCreationException: Term result cannot be converted into a formula.
+PS_3 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 90:20 '0'
+PS_2 : de.uka.ilkd.key.logic.TermCreationException: Term result cannot be converted into a formula.
+PS_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 90:20 '0'
+
+Timing per Mutant:
+
+Count for Mutation Operators: 
+
+Pre: 14344274
+Post: 76661920

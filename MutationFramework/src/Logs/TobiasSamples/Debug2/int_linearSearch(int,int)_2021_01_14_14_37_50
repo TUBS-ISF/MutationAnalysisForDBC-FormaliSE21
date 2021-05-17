@@ -1,0 +1,15 @@
+Mutation Score: 0.0 | Killed Mutants: 0 | Mutation Count: 2
+Verified Mutants:
+linearSearch : PS_1 - invalid (negated)
+linearSearch : PS_2 - invalid (negated)
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PS_1 : 1068
+PS_2 : 506
+
+Count for Mutation Operators: 
+
+Pre: 17948993
+Post: 55170866

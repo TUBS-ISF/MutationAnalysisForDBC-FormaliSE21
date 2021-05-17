@@ -1,0 +1,26 @@
+Mutation Score: 1.0 | Killed Mutants: 10 | Mutation Count: 10
+Verified Mutants:
+
+Exceptional Mutants:
+
+Timing per Mutant:
+CDL_7 : 102
+VDL_11 : 102
+AORB_23 : 202
+AORB_24 : 101
+AORB_21 : 303
+ODL_21 : 102
+AORB_22 : 203
+ODL_22 : 101
+SDL_17 : 101
+SDL_18 : 202
+
+Count for Mutation Operators: 
+AORB : 4
+ODL : 2
+CDL : 1
+SDL : 2
+VDL : 1
+
+Pre: 384200
+Post: 48048500

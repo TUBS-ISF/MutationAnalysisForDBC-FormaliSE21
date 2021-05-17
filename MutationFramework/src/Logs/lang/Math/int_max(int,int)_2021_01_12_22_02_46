@@ -1,0 +1,19 @@
+Mutation Score: 0.0 | Killed Mutants: 0 | Mutation Count: 4
+Verified Mutants:
+max : PS_3
+max : PS_5
+max : PS_4
+max : PS_6
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PS_3 : 101
+PS_5 : 102
+PS_4 : 102
+PS_6 : 102
+
+Count for Mutation Operators: 
+
+Pre: 13716953
+Post: 71437819

@@ -1,0 +1,27 @@
+Mutation Score: 0.7142857142857143 | Killed Mutants: 10 | Mutation Count: 14
+Verified Mutants:
+setTime : AOIS_7
+setTime : AOIS_8
+setTime : AOIS_3
+setTime : AOIS_4
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_4 : 338
+AOIS_5 : 202
+AOIS_6 : 201
+AOIS_3 : 303
+AOIU_1 : 303
+AOIS_4 : 305
+AOIU_2 : 303
+AOIS_1 : 203
+LOI_1 : 203
+AOIS_2 : 202
+LOI_2 : 303
+AOIS_7 : 303
+AOIS_8 : 303
+SDL_3 : 303
+
+Pre: 422100
+Post: 15893500

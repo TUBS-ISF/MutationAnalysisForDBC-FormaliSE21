@@ -1,0 +1,463 @@
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+
+
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "SecurityException" @110/18 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "SecurityException" @110/18 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "SecurityException" @110/18 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "SecurityException" @110/18 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\de':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\de; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:867)
+	at recoder.service.DefaultSourceInfo.getSignature(DefaultSourceInfo.java:2439)
+	at recoder.java.declaration.MethodDeclaration.getSignature(MethodDeclaration.java:792)
+	at recoder.service.DefaultProgramModelInfo.computeAllMethods(DefaultProgramModelInfo.java:282)
+	at recoder.service.DefaultProgramModelInfo.getAllMethods(DefaultProgramModelInfo.java:256)
+	at recoder.java.declaration.TypeDeclaration.getAllMethods(TypeDeclaration.java:472)
+	at recoder.service.DefaultProgramModelInfo.getMethods(DefaultProgramModelInfo.java:1011)
+	at recoder.service.DefaultSourceInfo.getMethods(DefaultSourceInfo.java:1973)
+	at recoder.service.DefaultSourceInfo.getMethod(DefaultSourceInfo.java:1938)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:484)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:867)
+	at recoder.service.DefaultSourceInfo.getSignature(DefaultSourceInfo.java:2439)
+	at recoder.java.declaration.MethodDeclaration.getSignature(MethodDeclaration.java:792)
+	at recoder.service.DefaultProgramModelInfo.computeAllMethods(DefaultProgramModelInfo.java:282)
+	at recoder.service.DefaultProgramModelInfo.getAllMethods(DefaultProgramModelInfo.java:256)
+	at recoder.java.declaration.TypeDeclaration.getAllMethods(TypeDeclaration.java:472)
+	at recoder.service.DefaultProgramModelInfo.getMethods(DefaultProgramModelInfo.java:1011)
+	at recoder.service.DefaultSourceInfo.getMethods(DefaultSourceInfo.java:1973)
+	at recoder.service.DefaultSourceInfo.getMethod(DefaultSourceInfo.java:1938)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:484)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:867)
+	at recoder.service.DefaultSourceInfo.getSignature(DefaultSourceInfo.java:2439)
+	at recoder.java.declaration.MethodDeclaration.getSignature(MethodDeclaration.java:792)
+	at recoder.service.DefaultProgramModelInfo.computeAllMethods(DefaultProgramModelInfo.java:282)
+	at recoder.service.DefaultProgramModelInfo.getAllMethods(DefaultProgramModelInfo.java:256)
+	at recoder.java.declaration.TypeDeclaration.getAllMethods(TypeDeclaration.java:472)
+	at recoder.service.DefaultProgramModelInfo.getMethods(DefaultProgramModelInfo.java:1011)
+	at recoder.service.DefaultSourceInfo.getMethods(DefaultSourceInfo.java:1973)
+	at recoder.service.DefaultSourceInfo.getMethod(DefaultSourceInfo.java:1938)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:484)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:867)
+	at recoder.service.DefaultSourceInfo.getSignature(DefaultSourceInfo.java:2439)
+	at recoder.java.declaration.MethodDeclaration.getSignature(MethodDeclaration.java:792)
+	at recoder.service.DefaultProgramModelInfo.computeAllMethods(DefaultProgramModelInfo.java:282)
+	at recoder.service.DefaultProgramModelInfo.getAllMethods(DefaultProgramModelInfo.java:256)
+	at recoder.java.declaration.TypeDeclaration.getAllMethods(TypeDeclaration.java:472)
+	at recoder.service.DefaultProgramModelInfo.getMethods(DefaultProgramModelInfo.java:1011)
+	at recoder.service.DefaultSourceInfo.getMethods(DefaultSourceInfo.java:1973)
+	at recoder.service.DefaultSourceInfo.getMethod(DefaultSourceInfo.java:1938)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:484)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:74)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.framework.AID" @199/26 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\de\uka\ilkd\key\javacard\KeYJCSystem.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:867)
+	at recoder.service.DefaultSourceInfo.getSignature(DefaultSourceInfo.java:2439)
+	at recoder.java.declaration.MethodDeclaration.getSignature(MethodDeclaration.java:792)
+	at recoder.service.DefaultProgramModelInfo.computeAllMethods(DefaultProgramModelInfo.java:282)
+	at recoder.service.DefaultProgramModelInfo.getAllMethods(DefaultProgramModelInfo.java:256)
+	at recoder.java.declaration.TypeDeclaration.getAllMethods(TypeDeclaration.java:472)
+	at recoder.service.DefaultProgramModelInfo.getMethods(DefaultProgramModelInfo.java:1011)
+	at recoder.service.DefaultSourceInfo.getMethods(DefaultSourceInfo.java:1973)
+	at recoder.service.DefaultSourceInfo.getMethod(DefaultSourceInfo.java:1938)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:484)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+E:\java-2020-03\Workspace\Studies\Javacard\src\java
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\Javacard\src\java
+E:\java-2020-03\Workspace\Studies\Javacard\src\java
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+E:\java-2020-03\Workspace\Studies\Javacard\src\java\rmi
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::initCause is still open.
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getCause is still open.
+E:\java-2020-03\Workspace\Studies\Javacard\src\java\rmi
+E:\java-2020-03\Workspace\Studies\Javacard\src\java\rmi
+Contract 'JML normal_behavior operation contract 0 for java.lang.Throwable' of java.lang.Throwable::getMessage is still open.
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\javacard':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "de.uka.ilkd.key.javacard.KeYJCSystem" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\AID.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\javacard; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "de.uka.ilkd.key.javacard.KeYJCSystem" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\AID.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "de.uka.ilkd.key.javacard.KeYJCSystem" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\AID.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "de.uka.ilkd.key.javacard.KeYJCSystem" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\AID.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "de.uka.ilkd.key.javacard.KeYJCSystem" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\AID.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "de.uka.ilkd.key.javacard.KeYJCSystem" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\AID.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "de.uka.ilkd.key.javacard.KeYJCSystem" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\AID.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "de.uka.ilkd.key.javacard.KeYJCSystem" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\AID.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\service':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.APDU" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\service\BasicService.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\service; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.APDU" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\service\BasicService.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.framework.APDU" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\service\BasicService.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.framework.APDU" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\framework\service\BasicService.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\security':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacardx.crypto.Cipher" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\security\AESKeyImplEnc.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\security; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacardx.crypto.Cipher" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\security\AESKeyImplEnc.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacardx.crypto.Cipher" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\security\AESKeyImplEnc.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacardx.crypto.Cipher" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacard\security\AESKeyImplEnc.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.security.CryptoException" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto\Cipher.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.security.CryptoException" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto\Cipher.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.security.CryptoException" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto\Cipher.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.security.CryptoException" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto\Cipher.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more
+Exception at 'E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto':
+Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.security.CryptoException" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto\Cipher.java(14) (file: E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto; caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.security.CryptoException" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto\Cipher.java(14))
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:84)
+Caused by: de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve TypeReference "javacard.security.CryptoException" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto\Cipher.java(14)
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1303)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:409)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve TypeReference "javacard.security.CryptoException" @13/8 in FILE:E:\java-2020-03\Workspace\Studies\Javacard\src\javacardx\crypto\Cipher.java(14)
+	at recoder.service.DefaultSourceInfo.getType(DefaultSourceInfo.java:836)
+	at recoder.service.KeYCrossReferenceSourceInfo.getType(KeYCrossReferenceSourceInfo.java:548)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:460)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.analyzeReferences(DefaultCrossReferenceSourceInfo.java:430)
+	at recoder.service.DefaultCrossReferenceSourceInfo.modelChanged(DefaultCrossReferenceSourceInfo.java:222)
+	at recoder.service.KeYCrossReferenceSourceInfo.modelChanged(KeYCrossReferenceSourceInfo.java:144)
+	at recoder.service.ChangeHistory.updateModel(ChangeHistory.java:502)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:401)
+	... 11 more

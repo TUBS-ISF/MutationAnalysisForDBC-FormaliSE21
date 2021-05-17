@@ -1,0 +1,17 @@
+Mutation Score: 0.5 | Killed Mutants: 2 | Mutation Count: 4
+Verified Mutants:
+pick_random : PS_5
+pick_random : PS_7
+
+Exceptional Mutants:
+PS_8 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in subtract expression and(gt(int::select(heap,self,openjml.BeanCan::$num_white),javaSubInt(Z(0(#)),Z(1(#)))),gt(int::select(heap,self,openjml.BeanCan::$num_black),Z(0(#))))(type: null) - Z(1(#))(type: (type, sort): (int,int)).
+PS_6 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in additive expression and(gt(int::select(heap,self,openjml.BeanCan::$num_white),javaAddInt(Z(0(#)),Z(1(#)))),gt(int::select(heap,self,openjml.BeanCan::$num_black),Z(0(#))))(type: null) + Z(1(#))(type: (type, sort): (int,int)):
+
+Timing per Mutant:
+PS_5 : 103
+PS_7 : 101
+
+Count for Mutation Operators: 
+
+Pre: 13772541
+Post: 74625381

@@ -1,0 +1,16 @@
+Mutation Score: 1.0 | Killed Mutants: 4 | Mutation Count: 4
+Verified Mutants:
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PS_1 : 460
+PS_3 : 103
+PS_2 : 205
+PS_4 : 103
+
+Count for Mutation Operators: 
+PS : 4
+
+Pre: 17663980
+Post: 81052437

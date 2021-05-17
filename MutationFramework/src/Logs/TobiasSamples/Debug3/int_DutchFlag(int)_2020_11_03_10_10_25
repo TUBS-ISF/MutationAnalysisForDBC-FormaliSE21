@@ -1,0 +1,30 @@
+Mutation Score: 0.8679245283018868 | Killed Mutants: 184 | Mutation Count: 212
+Verified Mutants:
+DutchFlag : ROR_58
+DutchFlag : VDL_13
+DutchFlag : ROR_38
+DutchFlag : VDL_16
+DutchFlag : ROR_53
+DutchFlag : AOIS_98
+DutchFlag : AOIS_97
+DutchFlag : VDL_18
+DutchFlag : ODL_22
+DutchFlag : AOIU_19
+DutchFlag : ODL_28
+DutchFlag : AORB_27
+DutchFlag : ROR_46
+DutchFlag : SDL_25
+DutchFlag : AOIS_89
+DutchFlag : AOIS_116
+DutchFlag : AOIS_115
+DutchFlag : ROR_60
+DutchFlag : AOIS_86
+DutchFlag : AOIS_85
+DutchFlag : ROR_62
+DutchFlag : AOIS_112
+DutchFlag : AOIS_111
+DutchFlag : AOIS_82
+DutchFlag : SDL_28
+DutchFlag : AOIS_81
+DutchFlag : AOIS_90
+DutchFlag : ODL_32

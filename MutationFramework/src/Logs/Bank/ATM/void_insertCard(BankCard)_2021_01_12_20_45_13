@@ -1,0 +1,35 @@
+Mutation Score: 0.4 | Killed Mutants: 2 | Mutation Count: 5
+Verified Mutants:
+insertCard : PW_8
+insertCard : PW_7
+insertCard : PW_6
+
+Exceptional Mutants:
+PW_5 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was leq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) bank.BankCard::select(heap,self,bank.ATM::$insertedCard)(sort: bank.BankCard, sort hash: 718567965)
+2.) null(sort: Null, sort hash: 362463583)
+
+PW_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was geq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) bank.BankCard::select(heap,self,bank.ATM::$insertedCard)(sort: bank.BankCard, sort hash: 1848754185)
+2.) null(sort: Null, sort hash: 362463583)
+
+
+Timing per Mutant:
+PW_8 : 102
+PW_7 : 103
+PW_6 : 103
+
+Count for Mutation Operators: 
+
+Pre: 15422398
+Post: 104201881

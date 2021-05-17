@@ -1,0 +1,30 @@
+Mutation Score: 0.6153846153846154 | Killed Mutants: 8 | Mutation Count: 13
+Verified Mutants:
+DutchFlag : PW_9
+DutchFlag : PW_10
+DutchFlag : PW_11
+DutchFlag : PW_12
+DutchFlag : PW_15
+
+Exceptional Mutants:
+PW_5 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 74:70 '=='
+PW_6 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 74:83 '<='
+PW_3 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 74:70 '==>'
+
+Timing per Mutant:
+PW_9 : 4640
+PW_8 : 4528
+PW_10 : 4427
+PW_11 : 4230
+PW_12 : 4227
+PW_13 : 3929
+PW_7 : 4329
+PW_14 : 6642
+PW_15 : 4029
+
+Count for Mutation Operators: 
+PW : 4
+
+Pre: 13776198
+Post: 219239379

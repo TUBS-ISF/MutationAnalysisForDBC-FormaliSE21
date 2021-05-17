@@ -1,0 +1,57 @@
+Mutation Score: 0.8484848484848485 | Killed Mutants: 28 | Mutation Count: 33
+Verified Mutants:
+min : AOIS_29
+min : AOIS_28
+min : AOIS_27
+min : AOIS_30
+min : ROR_17
+
+Exceptional Mutants:
+
+Timing per Mutant:
+AOIS_19 : 102
+ROR_16 : 102
+ROR_15 : 102
+COI_3 : 101
+AOIS_30 : 102
+LOI_8 : 101
+VDL_6 : 101
+VDL_5 : 103
+AOIU_10 : 103
+ROR_18 : 102
+ROR_17 : 102
+ROR_19 : 102
+AOIS_29 : 103
+AOIS_28 : 102
+AOIS_27 : 101
+AOIS_26 : 102
+ROR_21 : 102
+AOIS_25 : 102
+ROR_20 : 104
+AOIS_24 : 102
+AOIS_23 : 102
+AOIS_22 : 102
+AOIS_21 : 102
+AOIS_20 : 103
+AOIU_9 : 101
+AOIU_7 : 101
+LOI_10 : 101
+LOI_9 : 101
+AOIU_8 : 102
+LOI_11 : 101
+ODL_7 : 102
+ODL_6 : 102
+SDL_3 : 102
+
+Count for Mutation Operators: 
+AOIU : 4
+ROR : 6
+AOIS : 8
+ODL : 2
+LOI : 4
+SDL : 1
+COI : 1
+VDL : 2
+
+Pre: 555100
+Post: 73387200

@@ -1,0 +1,73 @@
+Mutation Score: 0.8148148148148148 | Killed Mutants: 44 | Mutation Count: 54
+Verified Mutants:
+update : AOIS_19
+update : ROR_3
+update : ROR_5
+update : ROR_6
+update : ODL_4
+update : AOIS_7
+update : AOIS_8
+update : VDL_4
+update : AOIS_20
+update : SDL_3
+
+Exceptional Mutants:
+
+Timing per Mutant:
+AOIS_19 : 205
+ROR_2 : 101
+AOIS_18 : 205
+ROR_3 : 101
+AOIS_17 : 204
+ROR_4 : 103
+AOIS_16 : 304
+ROR_5 : 202
+AOIS_15 : 304
+ROR_6 : 102
+AOIS_14 : 303
+ROR_7 : 103
+AOIS_13 : 305
+AOIS_12 : 203
+AOIS_11 : 305
+LOI_5 : 102
+AOIS_10 : 306
+LOI_1 : 204
+LOI_2 : 203
+LOI_3 : 102
+LOI_4 : 102
+ROR_1 : 202
+COI_1 : 203
+SDL_5 : 101
+SDL_4 : 203
+SDL_1 : 102
+SDL_3 : 102
+SDL_2 : 102
+VDL_4 : 102
+VDL_3 : 102
+VDL_2 : 102
+VDL_1 : 102
+AOIS_5 : 204
+AOIU_3 : 101
+AOIS_6 : 203
+AOIU_4 : 203
+AOIS_20 : 203
+AOIS_3 : 226
+AOIU_1 : 205
+AOIS_4 : 203
+AOIU_2 : 203
+AOIS_1 : 672
+AOIS_2 : 202
+ODL_3 : 102
+ODL_2 : 101
+AOIS_9 : 102
+ODL_5 : 102
+ODL_4 : 103
+AOIS_7 : 203
+AOIS_8 : 204
+AORB_3 : 204
+AORB_4 : 204
+AORB_1 : 104
+AORB_2 : 203
+
+Pre: 2801100
+Post: 113981900

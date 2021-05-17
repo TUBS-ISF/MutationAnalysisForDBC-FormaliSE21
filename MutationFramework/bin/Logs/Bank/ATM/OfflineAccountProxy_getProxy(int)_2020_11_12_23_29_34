@@ -1,0 +1,4 @@
+Mutation Score: 0.5 | Killed Mutants: 2 | Mutation Count: 4
+Verified Mutants:
+getProxy : AOIS_38
+getProxy : AOIS_37

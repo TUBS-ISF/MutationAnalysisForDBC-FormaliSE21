@@ -1,0 +1,12 @@
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0,LogFile::getMaximumRecord,false;
+JML normal_behavior operation contract 0,LogFile::addRecord,false;
+JML normal_behavior operation contract 0,LogRecord::getTransactionId,true;
+JML normal_behavior operation contract 0,LogRecord::getBalance,true;
+JML normal_behavior operation contract 0,LogRecord::setRecord,true;
+JML normal_behavior operation contract 0,PayCard::charge,false;
+JML normal_behavior operation contract 0,PayCard::charge__wrappee__Paycard,true;
+JML exceptional_behavior operation contract 0,PayCard::charge__wrappee__Paycard,true;
+JML operation contract 0,PayCard::createJuniorCard,true;

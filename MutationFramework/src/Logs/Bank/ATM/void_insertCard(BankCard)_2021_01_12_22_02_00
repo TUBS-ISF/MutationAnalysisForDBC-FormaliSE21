@@ -1,0 +1,13 @@
+Mutation Score: 1.0 | Killed Mutants: 2 | Mutation Count: 2
+Verified Mutants:
+
+Exceptional Mutants:
+PS_1 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 130:33 '>'
+PS_2 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 130:33 '='
+
+Timing per Mutant:
+
+Count for Mutation Operators: 
+
+Pre: 15351937
+Post: 53988878

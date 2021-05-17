@@ -1,0 +1,41 @@
+Mutation Score: 0.7894736842105263 | Killed Mutants: 15 | Mutation Count: 19
+Verified Mutants:
+sum : AOIS_5
+sum : AOIS_6
+sum : AOIS_3
+sum : AOIS_4
+
+Exceptional Mutants:
+SDL_3 : de.uka.ilkd.key.java.PosConvertException: Consider using a classpath if this is a classtype that cannot be resolved
+Could not resolve FieldReference "value" @19/20 in FILE:E:\java-2020-03\Workspace\Studies\verification-tasks\ReduxProblemSolved\Examples_from_Chapter_7\ArraySumForEach.java
+
+Timing per Mutant:
+SDL_4 : 102
+ASRS_3 : 203
+ASRS_2 : 202
+ASRS_1 : 303
+AOIS_5 : 202
+AOIS_6 : 203
+AOIS_3 : 203
+AOIU_1 : 202
+AOIS_4 : 202
+AOIU_2 : 101
+ASRS_4 : 303
+AOIS_1 : 204
+LOI_1 : 202
+AOIS_2 : 202
+LOI_2 : 102
+ODL_1 : 246
+SDL_1 : 102
+SDL_2 : 103
+
+Count for Mutation Operators: 
+AOIU : 2
+AOIS : 2
+ODL : 1
+LOI : 2
+SDL : 3
+ASRS : 4
+
+Pre: 273500
+Post: 12020200

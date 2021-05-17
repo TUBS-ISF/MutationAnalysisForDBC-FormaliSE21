@@ -1,0 +1,2 @@
+Exception at 'E:\java-2020-03\Workspace\MutationFramework\muJava\muJavaMutantStructure\result\Traditional\int_getAccountNumber()\AOIS_17\BankCard.java':
+Expression card.invalid cannot be resolved. (file: E:\java-2020-03\Workspace\Studies\Bank\bank; caused by: de.uka.ilkd.key.speclang.translation.SLTranslationException: Expression card.invalid cannot be resolved.)

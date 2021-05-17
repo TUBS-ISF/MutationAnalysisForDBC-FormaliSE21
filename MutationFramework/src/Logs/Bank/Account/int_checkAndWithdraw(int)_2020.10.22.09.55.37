@@ -1,0 +1,18 @@
+Mutation Score: 0.0 | Killed Mutants: 0 | Mutation Count: 16
+Verified Mutants:
+checkAndWithdraw : SDL_5
+checkAndWithdraw : SDL_4
+checkAndWithdraw : AOIS_5
+checkAndWithdraw : AOIU_3
+checkAndWithdraw : AOIS_10
+checkAndWithdraw : AOIS_6
+checkAndWithdraw : AOIU_4
+checkAndWithdraw : AOIU_2
+checkAndWithdraw : LOI_2
+checkAndWithdraw : LOI_3
+checkAndWithdraw : LOI_4
+checkAndWithdraw : AOIS_9
+checkAndWithdraw : AOIS_7
+checkAndWithdraw : AOIS_8
+checkAndWithdraw : SDL_3
+checkAndWithdraw : SDL_2

@@ -1,0 +1,14 @@
+Mutation Score: 0.5 | Killed Mutants: 2 | Mutation Count: 4
+Verified Mutants:
+getChild : AOIS_24
+getChild : AOIS_23
+
+Exceptional Mutants:
+
+Timing per Mutant:
+LOI_9 : 203
+AOIS_24 : 202
+AOIS_23 : 102
+AOIU_4 : 203
+
+Pre: 428700Post: 6920500

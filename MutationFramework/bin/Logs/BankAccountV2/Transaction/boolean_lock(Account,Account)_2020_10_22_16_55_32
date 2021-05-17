@@ -1,0 +1,7 @@
+Mutation Score: 0.4444444444444444 | Killed Mutants: 4 | Mutation Count: 9
+Verified Mutants:
+lock : SDL_5
+lock : SDL_12
+lock : SDL_4
+lock : SDL_8
+lock : SDL_10

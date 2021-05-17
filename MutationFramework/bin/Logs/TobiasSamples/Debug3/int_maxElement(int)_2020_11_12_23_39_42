@@ -1,0 +1,16 @@
+Mutation Score: 0.86 | Killed Mutants: 86 | Mutation Count: 100
+Verified Mutants:
+maxElement : COI_6
+maxElement : ROR_35
+maxElement : ROR_32
+maxElement : ROR_31
+maxElement : ROR_34
+maxElement : AOIS_56
+maxElement : ROR_22
+maxElement : ROR_33
+maxElement : AOIS_55
+maxElement : AOIS_54
+maxElement : AOIS_53
+maxElement : ROR_30
+maxElement : ROR_29
+maxElement : ROR_17

@@ -1,0 +1,43 @@
+Mutation Score: 1.0 | Killed Mutants: 31 | Mutation Count: 31
+Verified Mutants:
+
+Exceptional Mutants:
+PW_8 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PS_19 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_17 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_18 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_15 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_16 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_13 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_24 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_14 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_25 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_11 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_22 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_12 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_23 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_20 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_10 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_21 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PS_9 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PW_5 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PS_8 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 10:24 '>'
+PW_4 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_7 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_6 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_3 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+
+Timing per Mutant:
+PW_9 : 102
+PW_10 : 202
+PW_11 : 203
+PW_12 : 102
+PW_13 : 202
+PW_14 : 102
+PW_15 : 202
+
+Count for Mutation Operators: 
+PW : 7
+
+Pre: 13767909
+Post: 454488492

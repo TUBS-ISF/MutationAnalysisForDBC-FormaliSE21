@@ -1,0 +1,16 @@
+Mutation Score: 1.0 | Killed Mutants: 5 | Mutation Count: 5
+Verified Mutants:
+
+Exceptional Mutants:
+ : de.uka.ilkd.key.java.PosConvertException: Error in file E:\java-2020-03\Workspace\Studies\TheSchorrWaiteAlgorithm\HeapObject.java: Cannot parse nextChild
+ExpressionStatement expected
+@54/14 in block
+AORS_1 : de.uka.ilkd.key.java.PosConvertException: Error in file E:\java-2020-03\Workspace\Studies\TheSchorrWaiteAlgorithm\HeapObject.java: Cannot parse nextChild
+ExpressionStatement expected
+@54/14 in block
+
+Timing per Mutant:
+SDL_8 : 104
+AORS_1 : 203
+
+Pre: 792700Post: 15327700

@@ -1,0 +1,14 @@
+Mutation Score: 1.0 | Killed Mutants: 2 | Mutation Count: 2
+Verified Mutants:
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_3 : 302
+SDL_2 : 203
+
+Count for Mutation Operators: 
+SDL : 2
+
+Pre: 562200
+Post: 3625500

@@ -1,0 +1,20 @@
+Mutation Score: 0.4 | Killed Mutants: 2 | Mutation Count: 5
+Verified Mutants:
+accountBalance : SDL_5
+accountBalance : AOIU_4
+accountBalance : LOI_4
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_5 : 102
+AOIS_9 : 102
+AOIS_10 : 102
+AOIU_4 : 101
+LOI_4 : 101
+
+Count for Mutation Operators: 
+AOIS : 2
+
+Pre: 838900
+Post: 17792500

@@ -1,0 +1,29 @@
+An error occurred while parsing the libraries (file: E:\java-2020-03\Workspace\Studies\JAccounting\src\com\spaceprogram\accounting\AccountingHelper.java; caused by: de.uka.ilkd.key.java.ConvertException: An error occurred while parsing the libraries)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:228)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:242)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:216)
+	at de.uka.ilkd.key.control.KeYEnvironment.load(KeYEnvironment.java:176)
+	at Utils.VerifyWithKeY.main(VerifyWithKeY.java:73)
+Caused by: de.uka.ilkd.key.java.ConvertException: An error occurred while parsing the libraries
+	at de.uka.ilkd.key.java.Recoder2KeY.reportError(Recoder2KeY.java:1306)
+	at de.uka.ilkd.key.java.Recoder2KeY.parseSpecialClasses(Recoder2KeY.java:747)
+	at de.uka.ilkd.key.java.Recoder2KeY.recoderCompilationUnitsAsFiles(Recoder2KeY.java:375)
+	at de.uka.ilkd.key.java.Recoder2KeY.readCompilationUnitsAsFiles(Recoder2KeY.java:353)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.readJava(ProblemInitializer.java:311)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:507)
+	at de.uka.ilkd.key.proof.init.ProblemInitializer.prepare(ProblemInitializer.java:497)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.createInitConfig(AbstractProblemLoader.java:395)
+	at de.uka.ilkd.key.proof.io.AbstractProblemLoader.load(AbstractProblemLoader.java:237)
+	at de.uka.ilkd.key.control.AbstractUserInterfaceControl.load(AbstractUserInterfaceControl.java:214)
+	... 4 more
+Caused by: de.uka.ilkd.key.java.ConvertException: Error while processing: com.sun.mail.imap.IMAPMessage$1$FetchProfileCondition
+	at de.uka.ilkd.key.java.recoderext.ClassFileDeclarationManager.processBuilders(ClassFileDeclarationManager.java:111)
+	at de.uka.ilkd.key.java.recoderext.ClassFileDeclarationManager.getCompilationUnits(ClassFileDeclarationManager.java:90)
+	at de.uka.ilkd.key.java.Recoder2KeY.parseLibs(Recoder2KeY.java:674)
+	at de.uka.ilkd.key.java.Recoder2KeY.parseLibraryClasses0(Recoder2KeY.java:760)
+	at de.uka.ilkd.key.java.Recoder2KeY.parseSpecialClasses(Recoder2KeY.java:745)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at de.uka.ilkd.key.java.recoderext.ClassFileDeclarationBuilder.attachToEnclosingDeclaration(ClassFileDeclarationBuilder.java:273)
+	at de.uka.ilkd.key.java.recoderext.ClassFileDeclarationManager.processBuilders(ClassFileDeclarationManager.java:106)
+	... 16 more

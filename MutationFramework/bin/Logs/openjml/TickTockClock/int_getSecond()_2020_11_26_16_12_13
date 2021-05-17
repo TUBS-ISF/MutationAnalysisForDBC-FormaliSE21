@@ -1,0 +1,20 @@
+Mutation Score: 0.8 | Killed Mutants: 4 | Mutation Count: 5
+Verified Mutants:
+getSecond : SDL_6
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_6 : 103
+AOIS_5 : 102
+AOIU_3 : 102
+AOIS_6 : 102
+LOI_3 : 103
+
+Count for Mutation Operators: 
+AOIU : 1
+AOIS : 2
+LOI : 1
+
+Pre: 716500
+Post: 8400700

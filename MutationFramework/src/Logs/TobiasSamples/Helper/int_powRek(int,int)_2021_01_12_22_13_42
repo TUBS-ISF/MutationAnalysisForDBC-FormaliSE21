@@ -1,0 +1,13 @@
+Mutation Score: 0.0 | Killed Mutants: 0 | Mutation Count: 1
+Verified Mutants:
+powRek : PS_1
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PS_1 : 1412
+
+Count for Mutation Operators: 
+
+Pre: 13768396
+Post: 27997836

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.spaceprogram.accounting.basic.Payment" table="ACCTPayment">
+        <id name="id">
+           <generator class="assigned">
+				<!--param name="property">journalEntry</param-->
+			</generator>
+        </id>
+        <one-to-one name="journalEntry" cascade="all" constrained="true"/>
+        <property name="customerKey" />
+		<property name="created"/>
+		<property name="companyKey"/>
+		<property name="paymentDate"/>
+		<property name="updated"/>
+
+
+		<set name="distributionLines" table="ACCTPaymentDistribution" lazy="false"
+            cascade="all">
+			<key column="paymentKey"/>
+            <!--index column="id"/-->
+
+            <one-to-many class="com.spaceprogram.accounting.basic.PaymentDistribution"/>
+
+		</set>
+		<property name="paymentNumber"/>
+        <property name="amount" />
+         <property name="referenceNumber"/>
+        <property name="memo"/>
+        <property name="depositAccountKey"/>
+
+	</class>
+</hibernate-mapping>

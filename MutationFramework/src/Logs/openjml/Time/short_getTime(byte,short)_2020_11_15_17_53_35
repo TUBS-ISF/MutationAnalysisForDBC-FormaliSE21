@@ -1,0 +1,21 @@
+Mutation Score: 0.525 | Killed Mutants: 21 | Mutation Count: 40
+Verified Mutants:
+getTime : SDL_7
+getTime : AOIS_26
+getTime : AOIS_14
+getTime : AOIS_25
+getTime : AOIS_13
+getTime : AOIS_24
+getTime : AOIS_23
+getTime : VDL_3
+getTime : ODL_3
+getTime : ODL_2
+getTime : AODS_2
+getTime : LOI_10
+getTime : AOIU_8
+getTime : ODL_4
+getTime : AOIU_5
+getTime : AORB_3
+getTime : AORB_4
+getTime : AORB_1
+getTime : AORB_2

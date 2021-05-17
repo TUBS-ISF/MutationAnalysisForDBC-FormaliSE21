@@ -1,0 +1,16 @@
+Mutation Score: 0.6666666666666666 | Killed Mutants: 2 | Mutation Count: 3
+Verified Mutants:
+proxyExists : PW_24
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PW_22 : 760
+PW_23 : 415
+PW_24 : 1311
+
+Count for Mutation Operators: 
+PW : 2
+
+Pre: 22032555
+Post: 86991387

@@ -1,0 +1,30 @@
+Mutation Score: 0.6153846153846154 | Killed Mutants: 8 | Mutation Count: 13
+Verified Mutants:
+DutchFlag : PW_9
+DutchFlag : PW_10
+DutchFlag : PW_11
+DutchFlag : PW_12
+DutchFlag : PW_15
+
+Exceptional Mutants:
+PW_8 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_5 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_4 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_7 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_6 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_3 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+
+Timing per Mutant:
+PW_9 : 4232
+PW_10 : 3930
+PW_11 : 3830
+PW_12 : 3633
+PW_13 : 3830
+PW_14 : 6047
+PW_15 : 3828
+
+Count for Mutation Operators: 
+PW : 2
+
+Pre: 13855924
+Post: 200018919

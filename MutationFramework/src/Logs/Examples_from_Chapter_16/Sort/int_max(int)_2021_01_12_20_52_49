@@ -1,0 +1,19 @@
+Mutation Score: 1.0 | Killed Mutants: 7 | Mutation Count: 7
+Verified Mutants:
+
+Exceptional Mutants:
+PW_5 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 13:41 'start'
+PW_6 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 13:28 '0'
+
+Timing per Mutant:
+PW_4 : 103
+PW_7 : 102
+PW_1 : 102
+PW_3 : 102
+PW_2 : 102
+
+Count for Mutation Operators: 
+PW : 5
+
+Pre: 13671116
+Post: 112075945

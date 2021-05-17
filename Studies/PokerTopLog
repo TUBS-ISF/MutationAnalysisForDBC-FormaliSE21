@@ -1,0 +1,1 @@
+Caused by: recoder.service.UnresolvedReferenceException: Could not resolve UncollatedReferenceQualifier "Double" @16/45 in FILE:E:\java-2020-03\Workspace\Studies\PokerTop\poker\dealer\Pot.java (07b)

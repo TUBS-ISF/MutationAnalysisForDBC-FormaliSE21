@@ -1,0 +1,43 @@
+Mutation Score: 0.9090909090909091 | Killed Mutants: 20 | Mutation Count: 22
+Verified Mutants:
+isValid : VDL_4
+isValid : ODL_13
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_22 : 102
+SDL_23 : 102
+ROR_16 : 204
+ROR_15 : 102
+ROR_21 : 101
+ROR_20 : 101
+SDL_20 : 102
+AOIS_34 : 102
+COI_4 : 102
+SDL_21 : 102
+AOIS_33 : 101
+VDL_4 : 101
+AOIS_32 : 102
+AOIS_31 : 101
+CDL_2 : 102
+LOI_11 : 101
+AOIU_6 : 101
+ODL_12 : 102
+ODL_13 : 101
+ROR_18 : 102
+ROR_17 : 103
+ROR_19 : 101
+
+Count for Mutation Operators: 
+AOIU : 1
+ROR : 7
+AOIS : 4
+ODL : 1
+LOI : 1
+CDL : 1
+SDL : 4
+COI : 1
+
+Pre: 506400
+Post: 37122500

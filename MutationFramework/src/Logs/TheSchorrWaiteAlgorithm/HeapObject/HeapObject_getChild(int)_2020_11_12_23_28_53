@@ -1,0 +1,4 @@
+Mutation Score: 1.0 | Killed Mutants: 4 | Mutation Count: 4
+Verified Mutants:
+getChild : AOIS_24
+getChild : AOIS_23

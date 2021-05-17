@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+<hibernate-mapping>
+	<!-- com.spaceprogram.accounting.basic.Transaction root -->
+	<class name="com.spaceprogram.accounting.basic.Transaction" table="ACCTTransaction">
+		<id name="id" >
+			<generator class="native"/>
+		</id>
+		<property name="method"/>
+		<!--property name="refNumber" column="refNumber" type="int"/-->
+		<property name="accountKey"/>
+		<property name="customerKey"/>
+		<property name="companyKey" />
+		<property name="amount" />
+		<property name="classKey"/>
+		<property name="transactionDate"/>
+		<property name="journalEntryKey"/>
+		<property name="memo"/>
+        <property name="currency"/>
+	</class>
+</hibernate-mapping>

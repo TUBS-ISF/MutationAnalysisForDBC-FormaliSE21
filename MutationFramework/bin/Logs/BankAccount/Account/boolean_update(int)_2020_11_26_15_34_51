@@ -1,0 +1,84 @@
+Mutation Score: 0.8148148148148148 | Killed Mutants: 44 | Mutation Count: 54
+Verified Mutants:
+update : AOIS_19
+update : ROR_3
+update : ROR_5
+update : ROR_6
+update : ODL_4
+update : AOIS_7
+update : AOIS_8
+update : VDL_4
+update : AOIS_20
+update : SDL_3
+
+Exceptional Mutants:
+
+Timing per Mutant:
+AOIS_19 : 204
+ROR_2 : 204
+AOIS_18 : 202
+ROR_3 : 203
+AOIS_17 : 204
+ROR_4 : 102
+AOIS_16 : 304
+ROR_5 : 204
+AOIS_15 : 314
+ROR_6 : 102
+AOIS_14 : 305
+ROR_7 : 608
+AOIS_13 : 303
+AOIS_12 : 203
+AOIS_11 : 304
+LOI_5 : 102
+AOIS_10 : 506
+LOI_1 : 101
+LOI_2 : 101
+LOI_3 : 101
+LOI_4 : 101
+ROR_1 : 204
+COI_1 : 204
+SDL_5 : 202
+SDL_4 : 102
+SDL_1 : 102
+SDL_3 : 102
+SDL_2 : 102
+VDL_4 : 103
+VDL_3 : 103
+VDL_2 : 204
+VDL_1 : 204
+AOIS_5 : 203
+AOIU_3 : 203
+AOIS_6 : 204
+AOIU_4 : 202
+AOIS_20 : 203
+AOIS_3 : 204
+AOIU_1 : 206
+AOIS_4 : 228
+AOIU_2 : 203
+AOIS_1 : 886
+AOIS_2 : 204
+ODL_3 : 102
+ODL_2 : 102
+AOIS_9 : 204
+ODL_5 : 102
+ODL_4 : 103
+AOIS_7 : 201
+AOIS_8 : 203
+AORB_3 : 204
+AORB_4 : 203
+AORB_1 : 137
+AORB_2 : 202
+
+Count for Mutation Operators: 
+AORB : 4
+AOIU : 4
+ROR : 4
+AOIS : 16
+ODL : 3
+LOI : 5
+SDL : 4
+COI : 1
+VDL : 3
+
+Pre: 2577300
+Post: 129112000

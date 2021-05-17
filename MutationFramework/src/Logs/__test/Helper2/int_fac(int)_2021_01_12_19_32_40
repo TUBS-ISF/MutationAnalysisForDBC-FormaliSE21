@@ -1,0 +1,131 @@
+Mutation Score: 1.0 | Killed Mutants: 118 | Mutation Count: 118
+Verified Mutants:
+
+Exceptional Mutants:
+PS_79 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:23 '&&'
+PS_77 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:23 '=='
+PS_78 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term result cannot be converted into a formula.
+PS_75 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:13 '\resul'
+PS_76 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:23 '=='
+PS_73 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:13 '\res'
+PS_74 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:13 '\resu'
+PS_71 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:13 '\r'
+PS_72 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:13 '\re'
+PS_70 : java.lang.RuntimeException: NoViableAltException('&'@[1:1: Tokens : ( BOOLEAN | BYTE | FALSE | INSTANCEOF | INT | LONG | NEW | NULL | SHORT | SUPER | THIS | TRUE | VOID | ACCESSIBLE | ASSIGNABLE | BREAKS | CONTINUES | DECREASES | DEPENDS | DETERMINES | ENSURES | ENSURES_FREE | LOOP_DETERMINES | LOOP_SEPARATES | MODEL_METHOD_AXIOM | NON_NULL | NULLABLE | REPRESENTS | REQUIRES | REQUIRES_FREE | RETURNS | JOIN_PROC | SEPARATES | SIGNALS | SIGNALS_ONLY | ALLFIELDS | ALLOBJECTS | BACKUP | BIGINT | BSUM | BY | DECLASSIFIES | DISJOINT | DOMAIN_IMPLIES_CREATED | DURATION | ELEMTYPE | EMPTYSET | ERASES | EVERYTHING | EXCEPTION | EXISTS | FORALL | FREE | FRESH | INDEX | INDEXOF | INTERSECT | INTO | INV | INVARIANT_FOR | IN_DOMAIN | IS_FINITE | IS_INITIALIZED | ITSELF | LBLNEG | LBLPOS | LOCKSET | LOCSET | MAP | MAPEMPTY | MAP_GET | MAP_OVERRIDE | MAP_REMOVE | MAP_SINGLETON | MAP_SIZE | MAP_UPDATE | MAX | MEASURED_BY | MIN | NEWELEMSFRESH | NEW_OBJECTS | NONNULLELEMENTS | NOTHING | NOT_ASSIGNED | NOT_MODIFIED | NOT_SPECIFIED | NUM_OF | OLD | PERMISSION | PRE | PRODUCT | REACH | REACHLOCS | REAL | RESULT | SAME | SEQ | SEQ2MAP | SEQCONCAT | SEQDEF | SEQEMPTY | SEQGET | SEQREPLACE | SEQREVERSE | SEQSINGLETON | SEQSUB | SETMINUS | SINGLETON | SPACE | STATIC_INVARIANT_FOR | STRICTLY_NOTHING | STRING_EQUAL | SUBSET | SUCH_THAT | SUM | TRANSACTIONUPDATED | TRANSIENT | TYPE | TYPEOF | TYPE_SMALL | UNION | UNIONINF | VALUES | WORKINGSPACE | AND | BITWISENOT | COLON | COMMA | DIV | DOT | DOTDOT | EQUAL_SINGLE | EQV_ANTIV | EQ_NEQ | GEQ | IMPLIES | IMPLIESBACKWARD | INCLUSIVEOR | LARROW | LBRACE | LEQ | LOCKSET_LEQ | LOCKSET_LT | LOGICALAND | LOGICALOR | MINUS | MOD | MULT | NOT | PLUS | QUESTIONMARK | RBRACE | SEMI | SHIFTLEFT | SHIFTRIGHT | ST | UNSIGNEDSHIFTRIGHT | XOR | GT | LT_IMPLICIT_GT_DISPATCH | LPAREN | RPAREN | LBRACKET | RBRACKET | IDENT | BACKSLASH_PREFIXED | HEXNUMERAL | DIGITS | CHAR_LITERAL | STRING_LITERAL | WS | INFORMAL_DESCRIPTION | SL_COMMENT | DOC_COMMENT );])
+PS_88 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:25 '\produc'
+PS_89 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:33 '&&'
+PS_86 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:25 '\prod'
+PS_87 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:25 '\produ'
+PS_84 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:25 '\pr'
+PS_85 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:25 '\pro'
+PS_82 : java.lang.RuntimeException: NoViableAltException('&'@[1:1: Tokens : ( BOOLEAN | BYTE | FALSE | INSTANCEOF | INT | LONG | NEW | NULL | SHORT | SUPER | THIS | TRUE | VOID | ACCESSIBLE | ASSIGNABLE | BREAKS | CONTINUES | DECREASES | DEPENDS | DETERMINES | ENSURES | ENSURES_FREE | LOOP_DETERMINES | LOOP_SEPARATES | MODEL_METHOD_AXIOM | NON_NULL | NULLABLE | REPRESENTS | REQUIRES | REQUIRES_FREE | RETURNS | JOIN_PROC | SEPARATES | SIGNALS | SIGNALS_ONLY | ALLFIELDS | ALLOBJECTS | BACKUP | BIGINT | BSUM | BY | DECLASSIFIES | DISJOINT | DOMAIN_IMPLIES_CREATED | DURATION | ELEMTYPE | EMPTYSET | ERASES | EVERYTHING | EXCEPTION | EXISTS | FORALL | FREE | FRESH | INDEX | INDEXOF | INTERSECT | INTO | INV | INVARIANT_FOR | IN_DOMAIN | IS_FINITE | IS_INITIALIZED | ITSELF | LBLNEG | LBLPOS | LOCKSET | LOCSET | MAP | MAPEMPTY | MAP_GET | MAP_OVERRIDE | MAP_REMOVE | MAP_SINGLETON | MAP_SIZE | MAP_UPDATE | MAX | MEASURED_BY | MIN | NEWELEMSFRESH | NEW_OBJECTS | NONNULLELEMENTS | NOTHING | NOT_ASSIGNED | NOT_MODIFIED | NOT_SPECIFIED | NUM_OF | OLD | PERMISSION | PRE | PRODUCT | REACH | REACHLOCS | REAL | RESULT | SAME | SEQ | SEQ2MAP | SEQCONCAT | SEQDEF | SEQEMPTY | SEQGET | SEQREPLACE | SEQREVERSE | SEQSINGLETON | SEQSUB | SETMINUS | SINGLETON | SPACE | STATIC_INVARIANT_FOR | STRICTLY_NOTHING | STRING_EQUAL | SUBSET | SUCH_THAT | SUM | TRANSACTIONUPDATED | TRANSIENT | TYPE | TYPEOF | TYPE_SMALL | UNION | UNIONINF | VALUES | WORKINGSPACE | AND | BITWISENOT | COLON | COMMA | DIV | DOT | DOTDOT | EQUAL_SINGLE | EQV_ANTIV | EQ_NEQ | GEQ | IMPLIES | IMPLIESBACKWARD | INCLUSIVEOR | LARROW | LBRACE | LEQ | LOCKSET_LEQ | LOCKSET_LT | LOGICALAND | LOGICALOR | MINUS | MOD | MULT | NOT | PLUS | QUESTIONMARK | RBRACE | SEMI | SHIFTLEFT | SHIFTRIGHT | ST | UNSIGNEDSHIFTRIGHT | XOR | GT | LT_IMPLICIT_GT_DISPATCH | LPAREN | RPAREN | LBRACKET | RBRACKET | IDENT | BACKSLASH_PREFIXED | HEXNUMERAL | DIGITS | CHAR_LITERAL | STRING_LITERAL | WS | INFORMAL_DESCRIPTION | SL_COMMENT | DOC_COMMENT );])
+PS_83 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:25 '\p'
+PS_80 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:24 '&&'
+PS_81 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:25 '&&'
+PS_13 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:13 '&&'
+PS_14 : java.lang.RuntimeException: NoViableAltException('&'@[1:1: Tokens : ( BOOLEAN | BYTE | FALSE | INSTANCEOF | INT | LONG | NEW | NULL | SHORT | SUPER | THIS | TRUE | VOID | ACCESSIBLE | ASSIGNABLE | BREAKS | CONTINUES | DECREASES | DEPENDS | DETERMINES | ENSURES | ENSURES_FREE | LOOP_DETERMINES | LOOP_SEPARATES | MODEL_METHOD_AXIOM | NON_NULL | NULLABLE | REPRESENTS | REQUIRES | REQUIRES_FREE | RETURNS | JOIN_PROC | SEPARATES | SIGNALS | SIGNALS_ONLY | ALLFIELDS | ALLOBJECTS | BACKUP | BIGINT | BSUM | BY | DECLASSIFIES | DISJOINT | DOMAIN_IMPLIES_CREATED | DURATION | ELEMTYPE | EMPTYSET | ERASES | EVERYTHING | EXCEPTION | EXISTS | FORALL | FREE | FRESH | INDEX | INDEXOF | INTERSECT | INTO | INV | INVARIANT_FOR | IN_DOMAIN | IS_FINITE | IS_INITIALIZED | ITSELF | LBLNEG | LBLPOS | LOCKSET | LOCSET | MAP | MAPEMPTY | MAP_GET | MAP_OVERRIDE | MAP_REMOVE | MAP_SINGLETON | MAP_SIZE | MAP_UPDATE | MAX | MEASURED_BY | MIN | NEWELEMSFRESH | NEW_OBJECTS | NONNULLELEMENTS | NOTHING | NOT_ASSIGNED | NOT_MODIFIED | NOT_SPECIFIED | NUM_OF | OLD | PERMISSION | PRE | PRODUCT | REACH | REACHLOCS | REAL | RESULT | SAME | SEQ | SEQ2MAP | SEQCONCAT | SEQDEF | SEQEMPTY | SEQGET | SEQREPLACE | SEQREVERSE | SEQSINGLETON | SEQSUB | SETMINUS | SINGLETON | SPACE | STATIC_INVARIANT_FOR | STRICTLY_NOTHING | STRING_EQUAL | SUBSET | SUCH_THAT | SUM | TRANSACTIONUPDATED | TRANSIENT | TYPE | TYPEOF | TYPE_SMALL | UNION | UNIONINF | VALUES | WORKINGSPACE | AND | BITWISENOT | COLON | COMMA | DIV | DOT | DOTDOT | EQUAL_SINGLE | EQV_ANTIV | EQ_NEQ | GEQ | IMPLIES | IMPLIESBACKWARD | INCLUSIVEOR | LARROW | LBRACE | LEQ | LOCKSET_LEQ | LOCKSET_LT | LOGICALAND | LOGICALOR | MINUS | MOD | MULT | NOT | PLUS | QUESTIONMARK | RBRACE | SEMI | SHIFTLEFT | SHIFTRIGHT | ST | UNSIGNEDSHIFTRIGHT | XOR | GT | LT_IMPLICIT_GT_DISPATCH | LPAREN | RPAREN | LBRACKET | RBRACKET | IDENT | BACKSLASH_PREFIXED | HEXNUMERAL | DIGITS | CHAR_LITERAL | STRING_LITERAL | WS | INFORMAL_DESCRIPTION | SL_COMMENT | DOC_COMMENT );])
+PS_11 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_99 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:43 '&&'
+PS_12 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:12 '&&'
+PS_97 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:41 '&&'
+PS_10 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_98 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:44 '>='
+PS_95 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 69:39 '&&'
+PS_96 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:40 '&&'
+PS_93 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 69:37 '&&'
+PS_94 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 69:38 '&&'
+PS_91 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Type i not found.
+PS_92 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Type in not found.
+PS_90 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:34 '&&'
+PS_19 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:13 '\resul'
+PS_17 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:13 '\res'
+PS_18 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:13 '\resu'
+PS_15 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:13 '\r'
+PS_16 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:13 '\re'
+PS_24 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:24 '&&'
+PS_25 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:27 ';'
+PS_22 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term result cannot be converted into a formula.
+PS_23 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:23 '&&'
+PS_20 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:23 '=='
+PS_21 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 61:23 '=='
+PS_28 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_29 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_26 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_27 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_35 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_36 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_33 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_34 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_111 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:55 '&&'
+PS_31 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_110 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:54 '&&'
+PS_32 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_113 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:59 ';'
+PS_112 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:58 ')'
+PS_30 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_39 : java.lang.RuntimeException: NoViableAltException('&'@[1:1: Tokens : ( BOOLEAN | BYTE | FALSE | INSTANCEOF | INT | LONG | NEW | NULL | SHORT | SUPER | THIS | TRUE | VOID | ACCESSIBLE | ASSIGNABLE | BREAKS | CONTINUES | DECREASES | DEPENDS | DETERMINES | ENSURES | ENSURES_FREE | LOOP_DETERMINES | LOOP_SEPARATES | MODEL_METHOD_AXIOM | NON_NULL | NULLABLE | REPRESENTS | REQUIRES | REQUIRES_FREE | RETURNS | JOIN_PROC | SEPARATES | SIGNALS | SIGNALS_ONLY | ALLFIELDS | ALLOBJECTS | BACKUP | BIGINT | BSUM | BY | DECLASSIFIES | DISJOINT | DOMAIN_IMPLIES_CREATED | DURATION | ELEMTYPE | EMPTYSET | ERASES | EVERYTHING | EXCEPTION | EXISTS | FORALL | FREE | FRESH | INDEX | INDEXOF | INTERSECT | INTO | INV | INVARIANT_FOR | IN_DOMAIN | IS_FINITE | IS_INITIALIZED | ITSELF | LBLNEG | LBLPOS | LOCKSET | LOCSET | MAP | MAPEMPTY | MAP_GET | MAP_OVERRIDE | MAP_REMOVE | MAP_SINGLETON | MAP_SIZE | MAP_UPDATE | MAX | MEASURED_BY | MIN | NEWELEMSFRESH | NEW_OBJECTS | NONNULLELEMENTS | NOTHING | NOT_ASSIGNED | NOT_MODIFIED | NOT_SPECIFIED | NUM_OF | OLD | PERMISSION | PRE | PRODUCT | REACH | REACHLOCS | REAL | RESULT | SAME | SEQ | SEQ2MAP | SEQCONCAT | SEQDEF | SEQEMPTY | SEQGET | SEQREPLACE | SEQREVERSE | SEQSINGLETON | SEQSUB | SETMINUS | SINGLETON | SPACE | STATIC_INVARIANT_FOR | STRICTLY_NOTHING | STRING_EQUAL | SUBSET | SUCH_THAT | SUM | TRANSACTIONUPDATED | TRANSIENT | TYPE | TYPEOF | TYPE_SMALL | UNION | UNIONINF | VALUES | WORKINGSPACE | AND | BITWISENOT | COLON | COMMA | DIV | DOT | DOTDOT | EQUAL_SINGLE | EQV_ANTIV | EQ_NEQ | GEQ | IMPLIES | IMPLIESBACKWARD | INCLUSIVEOR | LARROW | LBRACE | LEQ | LOCKSET_LEQ | LOCKSET_LT | LOGICALAND | LOGICALOR | MINUS | MOD | MULT | NOT | PLUS | QUESTIONMARK | RBRACE | SEMI | SHIFTLEFT | SHIFTRIGHT | ST | UNSIGNEDSHIFTRIGHT | XOR | GT | LT_IMPLICIT_GT_DISPATCH | LPAREN | RPAREN | LBRACKET | RBRACKET | IDENT | BACKSLASH_PREFIXED | HEXNUMERAL | DIGITS | CHAR_LITERAL | STRING_LITERAL | WS | INFORMAL_DESCRIPTION | SL_COMMENT | DOC_COMMENT );])
+PS_37 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:12 '&&'
+PS_38 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:13 '&&'
+PS_46 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:23 '=='
+PS_47 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term result cannot be converted into a formula.
+PS_44 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:13 '\resul'
+PS_45 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:23 '=='
+PS_42 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:13 '\res'
+PS_43 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:13 '\resu'
+PS_40 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:13 '\r'
+PS_41 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:13 '\re'
+PS_48 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:23 '&&'
+PS_49 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:24 '&&'
+PS_1 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_57 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_58 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_3 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_2 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_9 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_50 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 65:27 ';'
+PS_8 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_5 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_4 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_7 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_6 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_59 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_68 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:12 '&&'
+PS_69 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:13 '&&'
+PS_66 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_67 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_100 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:44 '&&'
+PS_64 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_65 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_102 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:48 '&&'
+PS_62 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_101 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:48 '&&'
+PS_63 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: mismatched input '&&' expecting IDENT (org.antlr.runtime.MismatchedTokenException)
+PS_104 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:48 '&&'
+PS_60 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_103 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:48 '&&'
+PS_61 : de.uka.ilkd.key.java.ConvertException: de.uka.ilkd.key.speclang.translation.SLTranslationException: no viable alternative at input '&&' (org.antlr.runtime.NoViableAltException)
+PS_106 : de.uka.ilkd.key.logic.TermCreationException: Term i cannot be converted into a formula.
+PS_105 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:49 '&&'
+PS_108 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:52 '&&'
+PS_107 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:51 '&&'
+PS_109 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 69:55 ';'
+
+Timing per Mutant:
+PS_55 : 102
+PS_56 : 101
+PS_53 : 103
+PS_54 : 102
+PS_51 : 103
+PS_52 : 103
+PW_5 : 102
+PW_4 : 101
+PW_1 : 202
+PW_3 : 103
+PW_2 : 102
+
+Count for Mutation Operators: 
+PS : 6
+PW : 5
+
+Pre: 15926108
+Post: 1750817675

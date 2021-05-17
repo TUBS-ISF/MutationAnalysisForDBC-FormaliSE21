@@ -1,0 +1,18 @@
+Mutation Score: 0.5 | Killed Mutants: 2 | Mutation Count: 4
+Verified Mutants:
+withdrawAmount : PW_5
+withdrawAmount : PW_6
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PW_8 : 102
+PW_5 : 103
+PW_7 : 101
+PW_6 : 103
+
+Count for Mutation Operators: 
+PW : 2
+
+Pre: 13791801
+Post: 71254230

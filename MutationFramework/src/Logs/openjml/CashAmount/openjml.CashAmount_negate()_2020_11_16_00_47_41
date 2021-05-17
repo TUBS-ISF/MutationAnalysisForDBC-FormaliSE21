@@ -1,0 +1,8 @@
+Mutation Score: 1.0 | Killed Mutants: 2 | Mutation Count: 2
+Verified Mutants:
+negate : ODL_1
+negate : ODL_2
+negate : AODU_1
+negate : AODU_2
+negate : LOI_3
+negate : LOI_4

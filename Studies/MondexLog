@@ -1,0 +1,34 @@
+JML normal_behavior operation contract 0,javacard.framework.CardRuntimeException::CardRuntimeException,false;
+JML normal_behavior operation contract 0,javacard.framework.CardRuntimeException::CardRuntimeException,false;
+JML exceptional_behavior operation contract 0,javacard.framework.CardRuntimeException::throwIt,false;
+JML normal_behavior operation contract 0,javacard.framework.CardRuntimeException::setReason,true;
+JML normal_behavior operation contract 0,javacard.framework.CardRuntimeException::getReason,true;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML normal_behavior operation contract 0 for javacard.framework.CardRuntimeException,javacard.framework.CardRuntimeException::setReason,false;
+JML normal_behavior operation contract 0 for javacard.framework.CardRuntimeException,javacard.framework.CardRuntimeException::getReason,false;
+JML exceptional_behavior operation contract 0,javacard.framework.APDUException::throwIt,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML exceptional_behavior operation contract 0,javacard.framework.SystemException::throwIt,false;
+JML normal_behavior operation contract 0 for javacard.framework.CardRuntimeException,javacard.framework.CardRuntimeException::setReason,false;
+JML normal_behavior operation contract 0 for javacard.framework.CardRuntimeException,javacard.framework.CardRuntimeException::getReason,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML exceptional_behavior operation contract 0,javacard.framework.ISOException::throwIt,false;
+JML normal_behavior operation contract 0 for javacard.framework.CardRuntimeException,javacard.framework.CardRuntimeException::setReason,false;
+JML normal_behavior operation contract 0 for javacard.framework.CardRuntimeException,javacard.framework.CardRuntimeException::getReason,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+JML exceptional_behavior operation contract 0,javacard.framework.TransactionException::throwIt,false;
+JML normal_behavior operation contract 0 for javacard.framework.CardRuntimeException,javacard.framework.CardRuntimeException::setReason,false;
+JML normal_behavior operation contract 0 for javacard.framework.CardRuntimeException,javacard.framework.CardRuntimeException::getReason,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::initCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getCause,false;
+JML normal_behavior operation contract 0 for java.lang.Throwable,java.lang.Throwable::getMessage,false;
+
+Expression error in ConPurseJC -> daher auskommentiert

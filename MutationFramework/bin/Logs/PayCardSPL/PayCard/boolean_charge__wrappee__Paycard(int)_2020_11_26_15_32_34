@@ -1,0 +1,108 @@
+Mutation Score: 0.8987341772151899 | Killed Mutants: 71 | Mutation Count: 79
+Verified Mutants:
+charge__wrappee__Paycard : ODL_1
+charge__wrappee__Paycard : ODL_2
+charge__wrappee__Paycard : AOIS_26
+charge__wrappee__Paycard : AOIS_25
+charge__wrappee__Paycard : AOIS_22
+charge__wrappee__Paycard : AOIS_21
+charge__wrappee__Paycard : VDL_1
+charge__wrappee__Paycard : CDL_1
+
+Exceptional Mutants:
+
+Timing per Mutant:
+AOIS_19 : 202
+ROR_14 : 102
+ROR_2 : 201
+AOIS_18 : 303
+ROR_13 : 201
+ROR_3 : 202
+AOIS_17 : 202
+ROR_4 : 202
+AOIS_16 : 202
+ROR_5 : 203
+AOIS_15 : 202
+COI_3 : 102
+ROR_10 : 202
+ROR_6 : 203
+AOIS_14 : 202
+COI_2 : 102
+ROR_7 : 202
+AOIS_13 : 201
+ROR_12 : 203
+ROR_8 : 203
+AOIS_12 : 203
+ROR_11 : 101
+ROR_9 : 103
+AOIS_11 : 202
+LOI_5 : 202
+AOIS_10 : 202
+LOI_6 : 203
+LOI_7 : 203
+LOI_2 : 302
+LOI_3 : 202
+LOI_4 : 202
+ROR_1 : 202
+COI_1 : 202
+SDL_5 : 103
+SDL_4 : 203
+SDL_7 : 202
+SDL_6 : 203
+SDL_9 : 102
+SDL_8 : 100
+CDL_1 : 102
+SDL_11 : 202
+SDL_10 : 202
+VDL_3 : 203
+VDL_2 : 233
+VDL_1 : 102
+COR_2 : 102
+COR_1 : 203
+AOIS_26 : 203
+AOIS_25 : 203
+AOIS_24 : 203
+AOIS_23 : 202
+AOIS_22 : 202
+AOIS_5 : 202
+AOIU_3 : 303
+ODL_9 : 202
+AOIS_21 : 203
+AOIS_6 : 202
+ODL_8 : 202
+AOIS_20 : 202
+AOIU_2 : 303
+ODL_1 : 101
+ODL_3 : 203
+ODL_2 : 102
+AOIS_9 : 203
+ODL_5 : 102
+ODL_4 : 202
+AOIS_7 : 202
+ODL_10 : 203
+ODL_7 : 202
+AOIS_8 : 202
+ODL_6 : 102
+AORB_3 : 303
+AORB_4 : 202
+AORB_1 : 202
+AORB_2 : 302
+AORB_7 : 203
+AORB_8 : 203
+AORB_5 : 201
+AORB_6 : 305
+
+Count for Mutation Operators: 
+AORB : 8
+AOIU : 2
+ROR : 14
+AOIS : 18
+ODL : 8
+COR : 2
+LOI : 6
+SDL : 8
+COI : 3
+VDL : 2
+
+Pre: 477700
+Post: 118149300

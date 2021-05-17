@@ -1,0 +1,3 @@
+Mutation Score: 0.9811320754716981 | Killed Mutants: 52 | Mutation Count: 53
+Verified Mutants:
+transfer : SDL_2

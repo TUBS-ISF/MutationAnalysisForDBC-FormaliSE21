@@ -1,0 +1,15 @@
+Mutation Score: 0.5 | Killed Mutants: 1 | Mutation Count: 2
+Verified Mutants:
+test : PW_11
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PW_11 : 203
+PW_12 : 478
+
+Count for Mutation Operators: 
+PW : 1
+
+Pre: 13689158
+Post: 41685044

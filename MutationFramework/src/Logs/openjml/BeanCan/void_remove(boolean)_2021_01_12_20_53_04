@@ -1,0 +1,61 @@
+Mutation Score: 0.6153846153846154 | Killed Mutants: 8 | Mutation Count: 13
+Verified Mutants:
+remove : PW_11
+remove : PW_5
+remove : PW_12
+remove : PW_13
+remove : PW_6
+
+Exceptional Mutants:
+PW_9 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 31:25 'BLACK'
+PW_8 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was leq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) color(sort: boolean, sort hash: 30270324)
+2.) openjml.BeanCan::BLACK(sort: boolean, sort hash: 30270324)
+
+PW_10 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 31:25 'BLACK'
+PW_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 30:25 'WHITE'
+PW_7 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was geq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) color(sort: boolean, sort hash: 30270324)
+2.) openjml.BeanCan::BLACK(sort: boolean, sort hash: 30270324)
+
+PW_1 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was geq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) color(sort: boolean, sort hash: 30270324)
+2.) openjml.BeanCan::WHITE(sort: boolean, sort hash: 30270324)
+
+PW_3 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 30:25 'WHITE'
+PW_2 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was leq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 439225687
+2.) sort: int, sort hash: 439225687
+
+The subterms were:
+1.) color(sort: boolean, sort hash: 30270324)
+2.) openjml.BeanCan::WHITE(sort: boolean, sort hash: 30270324)
+
+
+Timing per Mutant:
+PW_11 : 102
+PW_5 : 101
+PW_12 : 102
+PW_13 : 102
+PW_6 : 103
+
+Count for Mutation Operators: 
+
+Pre: 13758888
+Post: 198296652

@@ -1,0 +1,57 @@
+Mutation Score: 0.4444444444444444 | Killed Mutants: 4 | Mutation Count: 9
+Verified Mutants:
+remove : PW_9
+remove : PW_8
+remove : PW_4
+remove : PW_7
+remove : PW_3
+
+Exceptional Mutants:
+PW_5 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was geq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 1053719038
+2.) sort: int, sort hash: 1053719038
+
+The subterms were:
+1.) color(sort: boolean, sort hash: 1086811994)
+2.) openjml.BeanCan::BLACK(sort: boolean, sort hash: 1086811994)
+
+PW_6 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was leq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 1053719038
+2.) sort: int, sort hash: 1053719038
+
+The subterms were:
+1.) color(sort: boolean, sort hash: 1086811994)
+2.) openjml.BeanCan::BLACK(sort: boolean, sort hash: 1086811994)
+
+PW_1 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was geq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 1053719038
+2.) sort: int, sort hash: 1053719038
+
+The subterms were:
+1.) color(sort: boolean, sort hash: 1086811994)
+2.) openjml.BeanCan::WHITE(sort: boolean, sort hash: 1086811994)
+
+PW_2 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was leq(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 1053719038
+2.) sort: int, sort hash: 1053719038
+
+The subterms were:
+1.) color(sort: boolean, sort hash: 1086811994)
+2.) openjml.BeanCan::WHITE(sort: boolean, sort hash: 1086811994)
+
+
+Timing per Mutant:
+PW_9 : 102
+PW_8 : 101
+PW_4 : 103
+PW_7 : 102
+PW_3 : 109
+
+Count for Mutation Operators: 
+
+Pre: 13757180
+Post: 142817611

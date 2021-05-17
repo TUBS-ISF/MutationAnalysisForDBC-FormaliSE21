@@ -1,0 +1,8 @@
+{
+"MuJava_Home": "F:\\Homeoffice\\Abschlussarbeiten\\masterarbeit-leon-schaer\\MutationFramework\\muJava\\muJavaMutantStructure",
+"Source": "F:\\Homeoffice\\Abschlussarbeiten\\masterarbeit-leon-schaer\\Studies\\verification-tasks\\ReduxProblemSolved\\openjml\\CashAmount.java",
+"Method": "int_cents()",
+"MethodSignature": "public int cents()",
+"ProjectPath": "F:\\Homeoffice\\Abschlussarbeiten\\masterarbeit-leon-schaer\\Studies\\verification-tasks\\ReduxProblemSolved\\openjml",
+"Traditional": ["PS"],
+}

@@ -1,0 +1,15 @@
+Mutation Score: 0.5 | Killed Mutants: 2 | Mutation Count: 4
+Verified Mutants:
+getProxy : AOIS_38
+getProxy : AOIS_37
+
+Exceptional Mutants:
+
+Timing per Mutant:
+AOIS_38 : 202
+AOIS_37 : 303
+LOI_22 : 303
+AOIU_16 : 303
+
+Pre: 1892600
+Post: 22897100

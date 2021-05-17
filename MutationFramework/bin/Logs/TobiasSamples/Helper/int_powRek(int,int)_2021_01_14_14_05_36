@@ -1,0 +1,26 @@
+Mutation Score: 0.6 | Killed Mutants: 6 | Mutation Count: 10
+Verified Mutants:
+powRek : PW_5
+powRek : PW_6
+powRek : PW_1
+powRek : PW_2
+
+Exceptional Mutants:
+PW_8 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 23:27 '||'
+PW_4 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 23:30 '!='
+PW_7 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 23:20 '&&'
+PW_3 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 23:31 '='
+
+Timing per Mutant:
+PW_9 : 214505
+PW_10 : 210733
+PW_5 : 606
+PW_6 : 604
+PW_1 : 605
+PW_2 : 726
+
+Count for Mutation Operators: 
+PW : 2
+
+Pre: 13793021
+Post: 157693145

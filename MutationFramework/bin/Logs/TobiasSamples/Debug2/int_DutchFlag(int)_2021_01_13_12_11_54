@@ -1,0 +1,31 @@
+Mutation Score: 0.6428571428571429 | Killed Mutants: 9 | Mutation Count: 14
+Verified Mutants:
+DutchFlag : PW_20
+DutchFlag : PW_13
+DutchFlag : PW_14
+DutchFlag : PW_15
+DutchFlag : PW_16
+
+Exceptional Mutants:
+PW_9 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_8 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_10 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_11 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_12 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_7 : de.uka.ilkd.key.logic.TermCreationException: Term int::select(heap,A,arr(i)) cannot be converted into a formula.
+PW_17 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Mismatched token at line 74:50 'i'
+PW_18 : de.uka.ilkd.key.speclang.translation.SLTranslationException: No viable alternative at line 74:27 '\forall'
+
+Timing per Mutant:
+PW_19 : 4235
+PW_20 : 2118
+PW_13 : 3026
+PW_14 : 2319
+PW_15 : 2218
+PW_16 : 2016
+
+Count for Mutation Operators: 
+PW : 1
+
+Pre: 13943208
+Post: 238229438

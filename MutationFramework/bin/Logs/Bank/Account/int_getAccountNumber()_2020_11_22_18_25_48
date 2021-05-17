@@ -1,0 +1,19 @@
+Mutation Score: 0.0 | Killed Mutants: 0 | Mutation Count: 5
+Verified Mutants:
+getAccountNumber : SDL_6
+getAccountNumber : AOIU_5
+getAccountNumber : AOIS_12
+getAccountNumber : AOIS_11
+getAccountNumber : LOI_5
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_6 : 102
+AOIU_5 : 102
+AOIS_12 : 101
+AOIS_11 : 102
+LOI_5 : 101
+
+Pre: 588500
+Post: 13549300

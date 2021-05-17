@@ -1,0 +1,43 @@
+Mutation Score: 0.0 | Killed Mutants: 0 | Mutation Count: 16
+Verified Mutants:
+checkAndWithdraw : SDL_5
+checkAndWithdraw : SDL_4
+checkAndWithdraw : AOIS_5
+checkAndWithdraw : AOIU_3
+checkAndWithdraw : AOIS_10
+checkAndWithdraw : AOIS_6
+checkAndWithdraw : AOIU_4
+checkAndWithdraw : AOIU_2
+checkAndWithdraw : LOI_2
+checkAndWithdraw : LOI_3
+checkAndWithdraw : LOI_4
+checkAndWithdraw : AOIS_9
+checkAndWithdraw : AOIS_7
+checkAndWithdraw : AOIS_8
+checkAndWithdraw : SDL_3
+checkAndWithdraw : SDL_2
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_5 : 102
+SDL_4 : 102
+AOIS_5 : 102
+AOIU_3 : 101
+AOIS_10 : 103
+AOIS_6 : 102
+AOIU_4 : 102
+AOIU_2 : 102
+LOI_2 : 101
+LOI_3 : 101
+LOI_4 : 102
+AOIS_9 : 102
+AOIS_7 : 102
+AOIS_8 : 101
+SDL_3 : 102
+SDL_2 : 102
+
+Count for Mutation Operators: 
+
+Pre: 578600
+Post: 67868000

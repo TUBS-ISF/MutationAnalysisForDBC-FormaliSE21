@@ -1,0 +1,68 @@
+public class CustomerForm extends CompanyCheck{
+
+    protected String perform2() throws Exception {
+         if(formaction != null){
+            if(formaction.equals("update")){
+            // then we'll save/update this object.
+              Session sess = getSessionFactory().openSession();
+           /** @begin-aspect */
+              net.sf.hibernate.Transaction tx = null;
+              /** @end-aspect */
+                try {
+                    /** @begin-aspect */
+                    tx = sess.beginTransaction();
+                    /** @end-aspect */
+
+                    Date now = new Date();
+                    if(id.longValue() > 0)
+                    {
+                        customer = (Customer)sess.load(Customer.class, id);
+                    }
+                    else
+                    {
+                        customer  = new Customer();
+                        customer.setCompanyKey(cid); 
+                    }
+
+                    customer.setName(request.getParameter("name"));
+
+                    if(id.longValue() == 0)
+                    {
+                        sess.save(customer); 
+                    }
+
+                    /** @begin-aspect */
+                    if (tx != null)
+                    {
+                        tx.commit();
+                        tx = null;
+                    }
+                    /** @end-aspect */
+                }
+                catch (Exception e) {
+                    /** @begin-aspect */
+                    if (tx != null)      // dwb was commented out
+                    {
+                        tx.rollback();    
+                        tx = null;
+                    }
+                    /** @end-aspect */
+                    throw e;
+                }
+                finally {
+                    sess.close();
+                }
+                response.sendRedirect("customer_details.jsp?id=" + customer.getId());
+
+            }
+             getCtx().setViewParam("id", id);
+                return "submitted";
+        }
+        return SUCCESS;
+    }
+
+    public Long getId() {
+        return id;
+    }
+}
+

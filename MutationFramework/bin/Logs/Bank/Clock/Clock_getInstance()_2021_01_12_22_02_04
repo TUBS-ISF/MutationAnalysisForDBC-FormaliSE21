@@ -1,0 +1,29 @@
+Mutation Score: 1.0 | Killed Mutants: 2 | Mutation Count: 2
+Verified Mutants:
+
+Exceptional Mutants:
+PS_1 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was gt(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 1096259059
+2.) sort: int, sort hash: 1096259059
+
+The subterms were:
+1.) result(sort: bank.Clock, sort hash: 2020687670)
+2.) null(sort: Null, sort hash: 671384775)
+
+PS_2 : de.uka.ilkd.key.speclang.translation.SLTranslationException: Error in relational expression: Building a term failed. Normally there is an arity mismatch or one of the subterms' sorts is not compatible (e.g. like the '2' in "true & 2")
+The top level operator was lt(Sort: Formula); its expected arg sorts were:
+1.) sort: int, sort hash: 1096259059
+2.) sort: int, sort hash: 1096259059
+
+The subterms were:
+1.) result(sort: bank.Clock, sort hash: 595036527)
+2.) null(sort: Null, sort hash: 671384775)
+
+
+Timing per Mutant:
+
+Count for Mutation Operators: 
+
+Pre: 13797653
+Post: 44272104

@@ -1,0 +1,30 @@
+Mutation Score: 0.5 | Killed Mutants: 6 | Mutation Count: 12
+Verified Mutants:
+DutchFlag : PS_11 range
+DutchFlag : PS_12 range 
+DutchFlag : PS_10 range
+DutchFlag : PS_9 range 
+DutchFlag : PS_8 range 
+DutchFlag : PS_7 range
+
+Exceptional Mutants:
+
+Timing per Mutant:
+PS_13 : 303
+PS_14 : 303
+PS_11 : 3930
+PS_12 : 3629
+PS_10 : 3930
+PS_9 : 3930
+PS_8 : 3540
+PS_17 : 303
+PS_18 : 404
+PS_15 : 304
+PS_7 : 3733
+PS_16 : 303
+
+Count for Mutation Operators: 
+PS : 6
+
+Pre: 13752549
+Post: 208022690

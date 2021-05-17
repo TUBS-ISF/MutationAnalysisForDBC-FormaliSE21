@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.spaceprogram.accounting.basic.Charge" table="ACCTCharge">
+        <id name="id"  >
+            <generator class="native"/>
+        </id>
+        <property name="created" />
+        <property name="updated" />
+
+        <property name="customerKey"/>
+
+		<property name="companyKey"/>
+        <property name="invoiceKey" />
+
+         <property name="chargeNumber" />
+
+        <property name="chargeDate" />
+         <property name="currency" />
+
+
+
+		<set name="chargeLines" table="ACCTChargeLine" lazy="false" cascade="all" >
+			<key column="chargeKey"/>
+
+
+            <one-to-many class="com.spaceprogram.accounting.basic.ChargeLine"/>
+
+		</set>
+
+        <property name="memo"/>
+         <!-- Can't use this because recurrence has a double key, appKey, itemKey
+         many-to-one name="recurrence" column="recurrenceKey"/
+         -->
+
+
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,35 @@
+Mutation Score: 0.7692307692307693 | Killed Mutants: 10 | Mutation Count: 13
+Verified Mutants:
+proxyExists : SDL_76
+proxyExists : AOIS_42
+proxyExists : AOIS_41
+
+Exceptional Mutants:
+
+Timing per Mutant:
+SDL_77 : 202
+AOIS_39 : 304
+SDL_76 : 305
+AOIS_42 : 1109
+AOIS_41 : 1109
+AOIS_40 : 202
+CDL_6 : 404
+LOI_23 : 202
+COI_17 : 622
+ODL_47 : 303
+AOIU_17 : 203
+ODL_48 : 102
+ROR_39 : 604
+
+Count for Mutation Operators: 
+AOIU : 1
+ROR : 1
+AOIS : 2
+ODL : 2
+LOI : 1
+CDL : 1
+SDL : 1
+COI : 1
+
+Pre: 2384100
+Post: 102988600
